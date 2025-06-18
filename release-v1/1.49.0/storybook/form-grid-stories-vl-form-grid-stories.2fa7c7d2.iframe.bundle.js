@@ -1,0 +1,50 @@
+"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[1937],{"../../libs/elements/src/form-grid/stories/vl-form-grid.stories.ts":(e,a,t)=>{t.r(a),t.d(a,{__namedExportsOrder:()=>r,default:()=>s,formGridDefault:()=>o});var l=t("../../node_modules/lit-html/lit-html.js");t("../../libs/elements/src/form-grid/vl-form-column.element.ts"),t("../../libs/elements/src/form-grid/vl-form-grid.element.ts"),t("../../libs/elements/src/button/vl-button.element.ts"),t("../../libs/elements/src/form/vl-form.element.ts"),t("../../libs/elements/src/form-message/vl-form-label.element.ts"),t("../../libs/elements/src/input-field/vl-input-field.element.ts");var n=t("../../libs/elements/src/grid/stories/vl-grid.stories-arg.ts");let s={id:"elements-form-grid-form-grid",title:"Elements/form-grid/form-grid",tags:["autodocs"],parameters:{},args:n.vn,argTypes:n.Xh},o=({stacked:e,stackedSmall:a,stackedLarge:t,alignStart:n,alignCenter:s,alignEnd:o,alignSpaceBetween:r,alignSpaceAround:i,vTop:m,vCenter:d,vBottom:u,vStretch:v})=>(0,l.qy)`
+        <div style="max-width: 800px">
+            <form is="vl-form" data-cy="form">
+                <div
+                    is="vl-form-grid"
+                    ?data-vl-is-stacked=${e}
+                    ?data-vl-is-stacked-small=${a}
+                    ?data-vl-is-stacked-large=${t}
+                    ?data-vl-align-start=${n}
+                    ?data-vl-align-center=${s}
+                    ?data-vl-align-end=${o}
+                    ?data-vl-align-space-between=${r}
+                    ?data-vl-align-space-around=${i}
+                    ?data-vl-v-top=${m}
+                    ?data-vl-v-center=${d}
+                    ?data-vl-v-bottom=${u}
+                    ?data-vl-v-stretch=${v}
+                    data-cy="form-grid"
+                >
+                    <div is="vl-form-column" data-vl-size="2">
+                        <label is="vl-form-label" for="text" data-vl-block>Email</label>
+                    </div>
+                    <div is="vl-form-column" data-vl-size="10">
+                        <input
+                            id="email"
+                            name="email"
+                            is="vl-input-field"
+                            placeholder="Bijv. naam@voorbeeld.be"
+                            data-vl-block
+                        />
+                    </div>
+                    <div is="vl-form-column" data-vl-size="2">
+                        <label is="vl-form-label" for="text" data-vl-block>Voornaam</label>
+                    </div>
+                    <div is="vl-form-column" data-vl-size="10">
+                        <input id="name" name="name" is="vl-input-field" placeholder="John" data-vl-block />
+                    </div>
+                    <div id="surname-label-column" is="vl-form-column" data-vl-size="2">
+                        <label is="vl-form-label" for="url" data-vl-block>Naam</label>
+                    </div>
+                    <div id="surname-input-column" is="vl-form-column" data-vl-size="10">
+                        <input id="surname" name="surname" is="vl-input-field" placeholder="Doe" data-vl-block />
+                    </div>
+                    <div is="vl-form-column" data-vl-size="10" data-vl-push="2">
+                        <button is="vl-button" type="submit">Inschrijven</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    `;o.storyName="vl-form-grid - default",o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:'({\n  stacked,\n  stackedSmall,\n  stackedLarge,\n  alignStart,\n  alignCenter,\n  alignEnd,\n  alignSpaceBetween,\n  alignSpaceAround,\n  vTop,\n  vCenter,\n  vBottom,\n  vStretch\n}: typeof gridBaseArgs) => {\n  return html`\n        <div style="max-width: 800px">\n            <form is="vl-form" data-cy="form">\n                <div\n                    is="vl-form-grid"\n                    ?data-vl-is-stacked=${stacked}\n                    ?data-vl-is-stacked-small=${stackedSmall}\n                    ?data-vl-is-stacked-large=${stackedLarge}\n                    ?data-vl-align-start=${alignStart}\n                    ?data-vl-align-center=${alignCenter}\n                    ?data-vl-align-end=${alignEnd}\n                    ?data-vl-align-space-between=${alignSpaceBetween}\n                    ?data-vl-align-space-around=${alignSpaceAround}\n                    ?data-vl-v-top=${vTop}\n                    ?data-vl-v-center=${vCenter}\n                    ?data-vl-v-bottom=${vBottom}\n                    ?data-vl-v-stretch=${vStretch}\n                    data-cy="form-grid"\n                >\n                    <div is="vl-form-column" data-vl-size="2">\n                        <label is="vl-form-label" for="text" data-vl-block>Email</label>\n                    </div>\n                    <div is="vl-form-column" data-vl-size="10">\n                        <input\n                            id="email"\n                            name="email"\n                            is="vl-input-field"\n                            placeholder="Bijv. naam@voorbeeld.be"\n                            data-vl-block\n                        />\n                    </div>\n                    <div is="vl-form-column" data-vl-size="2">\n                        <label is="vl-form-label" for="text" data-vl-block>Voornaam</label>\n                    </div>\n                    <div is="vl-form-column" data-vl-size="10">\n                        <input id="name" name="name" is="vl-input-field" placeholder="John" data-vl-block />\n                    </div>\n                    <div id="surname-label-column" is="vl-form-column" data-vl-size="2">\n                        <label is="vl-form-label" for="url" data-vl-block>Naam</label>\n                    </div>\n                    <div id="surname-input-column" is="vl-form-column" data-vl-size="10">\n                        <input id="surname" name="surname" is="vl-input-field" placeholder="Doe" data-vl-block />\n                    </div>\n                    <div is="vl-form-column" data-vl-size="10" data-vl-push="2">\n                        <button is="vl-button" type="submit">Inschrijven</button>\n                    </div>\n                </div>\n            </form>\n        </div>\n    `;\n}',...o.parameters?.docs?.source}}};let r=["formGridDefault"]},"../../libs/elements/src/grid/stories/vl-grid.stories-arg.ts":(e,a,t)=>{t.d(a,{Xh:()=>o,pN:()=>s,vn:()=>n,xJ:()=>r});var l=t("../../libs/common/storybook/src/index.ts");let n={stacked:!0,stackedSmall:!1,stackedLarge:!1,alignStart:!1,alignCenter:!1,alignEnd:!1,alignSpaceBetween:!1,alignSpaceAround:!1,vTop:!1,vCenter:!1,vBottom:!1,vStretch:!1},s={...n,content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda dignissimos doloremque eos est eveniet fugiat illo illum impedit, libero nam, omnis optio praesentium qui quod ratione vel voluptas voluptatibus?",background:"#f7f9fc",columnSize:3,columnsAmount:3},o={stacked:{name:"data-vl-is-stacked",description:"Add margin between stacked columns.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},stackedSmall:{name:"data-vl-is-stacked-small",description:"Add a little less margin between stacked columns. The use of `data-vl-is-stacked` is unnecessary in this case.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},stackedLarge:{name:"data-vl-is-stacked-large",description:"Add some more margin between stacked columns. The use of `data-vl-is-stacked` is unnecessary in this case.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},alignStart:{name:"data-vl-align-start",description:"Align one or more columns on the left.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},alignCenter:{name:"data-vl-align-center",description:"Center one or more columns horizontally.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},alignEnd:{name:"data-vl-align-end",description:"Align one or more columns on the right.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},alignSpaceBetween:{name:"data-vl-align-space-between",description:"Leave as much space as possible between columns.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},alignSpaceAround:{name:"data-vl-align-space-around",description:"Leave as much space as possible around columns. ",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},vTop:{name:"data-vl-v-top",description:"Align one or more columns at the top.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},vCenter:{name:"data-vl-v-center",description:"Center one or more columns vertically.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},vBottom:{name:"data-vl-v-bottom",description:"Align one or more columns at the bottom.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},vStretch:{name:"data-vl-v-stretch",description:"Stretch the columns to their maximum height.",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}}},r={...o,content:{name:"content (for demo purposes)",table:{type:{summary:"string"},category:"Attributes",defaultValue:{summary:""}}},background:{name:"background (for demo purposes)",table:{type:{summary:"string"},category:"Attributes",defaultValue:{summary:""}}},columnsAmount:{name:"amount of columns (for demo purposes)",control:{type:l.VH.RANGE,min:1,max:12,step:1},table:{type:{summary:"string"},category:"Attributes",defaultValue:{summary:""}}},columnSize:{name:"size of the columns (for demo purposes)",table:{type:{summary:"string"},category:"Attributes",defaultValue:{summary:""}}}}}}]);
