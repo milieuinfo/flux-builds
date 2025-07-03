@@ -1,0 +1,40 @@
+"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[4397],{"../../node_modules/@storybook/addon-docs/dist/chunk-HLWAVYOI.mjs":(e,l,s)=>{s.d(l,{f:()=>v});var o=s("../../node_modules/react/index.js"),n=s("../../node_modules/react-dom/client.js"),d=new Map,t=({callback:e,children:l})=>{let s=(0,o.useRef)();return(0,o.useLayoutEffect)(()=>{s.current!==e&&(s.current=e,e())},[e]),l},c=async(e,l)=>{let s=await a(l);return new Promise(l=>{s.render(o.createElement(t,{callback:()=>l(null)},e))})},r=(e,l)=>{let s=d.get(e);s&&(s.unmount(),d.delete(e))},a=async e=>{let l=d.get(e);return l||(l=n.createRoot(e),d.set(e,l)),l},i=s("../../node_modules/@storybook/blocks/dist/index.mjs"),m={code:i.XA,a:i.zE,...i.Sw},u=class extends o.Component{constructor(){super(...arguments),this.state={hasError:!1}}static getDerivedStateFromError(){return{hasError:!0}}componentDidCatch(e){let{showException:l}=this.props;l(e)}render(){let{hasError:e}=this.state,{children:l}=this.props;return e?null:o.createElement(o.Fragment,null,l)}},v=class{constructor(){this.render=async(e,l,n)=>{let d={...m,...l?.components},t=i.kQ;return new Promise((r,a)=>{s.e(814).then(s.bind(s,"../../node_modules/@storybook/addon-docs/node_modules/@mdx-js/react/index.js")).then(({MDXProvider:s})=>c(o.createElement(u,{showException:a,key:Math.random()},o.createElement(s,{components:d},o.createElement(t,{context:e,docsParameter:l}))),n)).then(()=>r())})},this.unmount=e=>{r(e)}}}},"../../node_modules/@storybook/addon-docs/dist/index.mjs":(e,l,s)=>{s.d(l,{Hl:()=>o.Hl,W8:()=>o.W8,kL:()=>o.kL,ov:()=>o.ov}),s("../../node_modules/@storybook/addon-docs/dist/chunk-HLWAVYOI.mjs");var o=s("../../node_modules/@storybook/blocks/dist/index.mjs")},"../../libs/styles/src/layout/stacked/stories/vl-stacked.stories.ts":(e,l,s)=>{s.r(l),s.d(l,{StackedLarge:()=>i,StackedMedium:()=>m,StackedSmall:()=>u,__namedExportsOrder:()=>v,default:()=>a});var o=s("../../node_modules/lit-html/lit-html.js");s("../../node_modules/react/index.js");var n=s("../../node_modules/react/jsx-runtime.js"),d=s("../../node_modules/@storybook/addon-docs/node_modules/@mdx-js/react/lib/index.js"),t=s("../../node_modules/@storybook/blocks/dist/index.mjs"),c=s("../../node_modules/@storybook/addon-docs/dist/index.mjs");function r(e){let l=Object.assign({h1:"h1",h2:"h2",ul:"ul",li:"li",a:"a",p:"p",code:"code",h3:"h3"},(0,d.RP)(),e.components),{FluxMetaData:s}=l;return s||function(e,l){throw Error("Expected "+(l?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}("FluxMetaData",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(c.W8,{title:"Styles/Layout (afnemers)/stacked"}),"\n",(0,n.jsx)(l.h1,{id:"stacked",children:"Stacked"}),"\n",(0,n.jsx)(s,{id:"styles-layout-afnemers-stacked"}),"\n",(0,n.jsx)("br",{}),"\n",(0,n.jsx)(l.h2,{id:"inhoudstafel",children:"Inhoudstafel"}),"\n",(0,n.jsxs)(l.ul,{children:["\n",(0,n.jsx)(l.li,{children:(0,n.jsx)(l.a,{href:"#doel",children:"Doel"})}),"\n",(0,n.jsx)(l.li,{children:(0,n.jsx)(l.a,{href:"#gebruik",children:"Gebruik"})}),"\n"]}),"\n",(0,n.jsx)(l.h2,{id:"doel",children:"Doel"}),"\n",(0,n.jsx)(l.p,{children:"De 'stacked' style-classes beïnvloeden de ruimte tussen kind items."}),"\n",(0,n.jsx)(l.h2,{id:"gebruik",children:"Gebruik"}),"\n",(0,n.jsxs)(l.p,{children:["Op de omsluitende parent de class ",(0,n.jsx)(l.code,{children:"vl-stacked-large"}),", ",(0,n.jsx)(l.code,{children:"vl-stacked-medium"})," of ",(0,n.jsx)(l.code,{children:"vl-stacked-small"})," zetten,\nvoegt witruimte toe tussen de kinderen."]}),"\n",(0,n.jsx)(l.h3,{id:"vl-stacked-large",children:"vl-stacked-large"}),"\n",(0,n.jsx)(t.Hl,{of:i}),"\n",(0,n.jsx)(l.h3,{id:"vl-stacked-medium",children:"vl-stacked-medium"}),"\n",(0,n.jsx)(t.Hl,{of:m}),"\n",(0,n.jsx)(l.h3,{id:"vl-stacked-small",children:"vl-stacked-small"}),"\n",(0,n.jsx)(t.Hl,{of:u})]})}let a={id:"styles-layout-afnemers-stacked",title:"Styles/Layout (afnemers)/stacked",tags:["autodocs"],parameters:{docs:{page:function(e={}){let{wrapper:l}=Object.assign({},(0,d.RP)(),e.components);return l?(0,n.jsx)(l,Object.assign({},e,{children:(0,n.jsx)(r,e)})):r(e)}}}},i=({})=>(0,o.qy)`
+    <style>
+        .vl-grid .vl-column {
+            background-color: mediumspringgreen;
+            border: lightseagreen 2px solid;
+        }
+    </style>
+    <div class="vl-grid vl-stacked-large">
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+    </div>
+`;i.storyName="vl-stacked - large";let m=({})=>(0,o.qy)`
+    <style>
+        .vl-grid .vl-column {
+            background-color: mediumspringgreen;
+            border: lightseagreen 2px solid;
+        }
+    </style>
+    <div class="vl-grid vl-stacked-medium">
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+    </div>
+`;m.storyName="vl-stacked - medium";let u=({})=>(0,o.qy)`
+    <style>
+        .vl-grid .vl-column {
+            background-color: mediumspringgreen;
+            border: lightseagreen 2px solid;
+        }
+    </style>
+    <div class="vl-grid vl-stacked-small">
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+        <div class="vl-column vl-column--8 vl-column--start-3"></div>
+    </div>
+`;u.storyName="vl-stacked - small",i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:'({}) => html`\n    <style>\n        .vl-grid .vl-column {\n            background-color: mediumspringgreen;\n            border: lightseagreen 2px solid;\n        }\n    </style>\n    <div class="vl-grid vl-stacked-large">\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n    </div>\n`',...i.parameters?.docs?.source}}},m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:'({}) => html`\n    <style>\n        .vl-grid .vl-column {\n            background-color: mediumspringgreen;\n            border: lightseagreen 2px solid;\n        }\n    </style>\n    <div class="vl-grid vl-stacked-medium">\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n    </div>\n`',...m.parameters?.docs?.source}}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:'({}) => html`\n    <style>\n        .vl-grid .vl-column {\n            background-color: mediumspringgreen;\n            border: lightseagreen 2px solid;\n        }\n    </style>\n    <div class="vl-grid vl-stacked-small">\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n        <div class="vl-column vl-column--8 vl-column--start-3"></div>\n    </div>\n`',...u.parameters?.docs?.source}}};let v=["StackedLarge","StackedMedium","StackedSmall"]},"../../node_modules/react-dom/client.js":(e,l,s)=>{var o=s("../../node_modules/react-dom/index.js");l.createRoot=o.createRoot,l.hydrateRoot=o.hydrateRoot}}]);
