@@ -1,0 +1,7 @@
+"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[2998],{"../../libs/elements/src/grid/stories/vl-grid-layout.stories.ts":(e,i,s)=>{s.r(i),s.d(i,{__namedExportsOrder:()=>r,default:()=>o,gridLayout:()=>l});var t=s("../../node_modules/lit-html/lit-html.js");s("../../libs/elements/src/grid/vl-grid.element.ts");let o={id:"elements-grid-grid-layout",title:"Elements/grid/grid-layout",tags:["autodocs"],args:{content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda dignissimos doloremque eos est eveniet fugiat illo illum impedit, libero nam, omnis optio praesentium qui quod ratione vel voluptas voluptatibus?"},argTypes:{content:{name:"content (for demo purposes)",type:{summary:"string"}}}},l=({content:e})=>(0,t.qy)` <section is="vl-region">
+    <div is="vl-layout" class="vl-layout">
+        <div is="vl-grid">
+            <div is="vl-column">${e}</div>
+        </div>
+    </div>
+</section>`;l.storyName="vl-grid - layout default",l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:'({\n  content\n}: GridLayoutArgs) => html` <section is="vl-region">\n    <div is="vl-layout" class="vl-layout">\n        <div is="vl-grid">\n            <div is="vl-column">${content}</div>\n        </div>\n    </div>\n</section>`',...l.parameters?.docs?.source}}};let r=["gridLayout"]}}]);
