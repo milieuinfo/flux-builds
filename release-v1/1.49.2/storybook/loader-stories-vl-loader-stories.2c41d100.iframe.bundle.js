@@ -1,0 +1,16 @@
+"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[5303],{"../../libs/components/src/loader/stories/vl-loader.stories.ts":(t,e,a)=>{a.r(e),a.d(e,{__namedExportsOrder:()=>i,default:()=>r,loaderDefault:()=>s,loaderLightWithoutText:()=>n,loaderWithCustomContent:()=>d});var l=a("../../node_modules/lit-html/lit-html.js");a("../../libs/components/src/loader/vl-loader.component.ts");var o=a("../../libs/common/storybook/src/index.ts");let r={id:"components-loader",title:"Components/loader",tags:["autodocs"],args:{...o.D8,light:!1,text:"Pagina is aan het laden",single:!1},argTypes:{...(0,o.RN)(),light:{name:"data-vl-light",description:"Attribute is used to obtain an alternative rendering in combination with a dark background. ",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}},text:{name:"data-vl-text",description:"Attribute is used to display an informative text during loading. ",table:{type:{summary:"string"},category:"Attributes",defaultValue:{summary:""}}},single:{name:"data-vl-single",description:"Attribute is used to indicate that no text should be displayed. ",table:{type:{summary:"boolean"},category:"Attributes",defaultValue:{summary:"false"}}}}},s=({light:t,text:e,single:a})=>(0,l.qy)`
+    <vl-loader ?data-vl-light=${t} data-vl-text=${e} ?data-vl-single=${a} data-cy="loader"></vl-loader>
+`;s.storyName="vl-loader - default";let n=({light:t,text:e,single:a})=>(0,l.qy)`
+    <div class="vl-region" style="background: #b7b7b7">
+        <vl-loader
+            ?data-vl-light=${t}
+            data-vl-text=${e}
+            ?data-vl-single=${a}
+            data-cy="loader-light-without-text"
+        ></vl-loader>
+    </div>
+`;n.storyName="vl-loader - light without text",n.args={light:!0,single:!0};let d=({light:t,single:e})=>(0,l.qy)`
+    <vl-loader ?data-vl-light=${t} ?data-vl-single=${e} data-cy="loader-with-custom-content">
+        <span><strong>Informatie</strong> is aan het laden</span>
+    </vl-loader>
+`;d.storyName="vl-loader - with custom content",d.argTypes={text:{control:{disable:!0}}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:'({\n  light,\n  text,\n  single\n}: typeof loaderArgs) => html`\n    <vl-loader ?data-vl-light=${light} data-vl-text=${text} ?data-vl-single=${single} data-cy="loader"></vl-loader>\n`',...s.parameters?.docs?.source}}},n.parameters={...n.parameters,docs:{...n.parameters?.docs,source:{originalSource:'({\n  light,\n  text,\n  single\n}: typeof loaderArgs) => html`\n    <div class="vl-region" style="background: #b7b7b7">\n        <vl-loader\n            ?data-vl-light=${light}\n            data-vl-text=${text}\n            ?data-vl-single=${single}\n            data-cy="loader-light-without-text"\n        ></vl-loader>\n    </div>\n`',...n.parameters?.docs?.source}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:'({\n  light,\n  single\n}: typeof loaderArgs) => html`\n    <vl-loader ?data-vl-light=${light} ?data-vl-single=${single} data-cy="loader-with-custom-content">\n        <span><strong>Informatie</strong> is aan het laden</span>\n    </vl-loader>\n`',...d.parameters?.docs?.source}}};let i=["loaderDefault","loaderLightWithoutText","loaderWithCustomContent"]}}]);
