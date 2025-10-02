@@ -1,0 +1,385 @@
+"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[1e3],{"../../libs/map/src/stories/vl-map.stories.ts":(e,t,a)=>{a.r(t),a.d(t,{MapDefault:()=>$,MapFullHeight:()=>E,MapPlayground:()=>T,MapPlaygroundLB72:()=>M,__namedExportsOrder:()=>C,default:()=>j});var n=a("../../libs/common/storybook/src/index.ts");a("../../libs/components/src/index.ts");var l=a("../../libs/common/utilities/src/index.ts"),o=a("../../libs/components/src/next/title/index.ts");a("../../libs/elements/src/index.ts");var r=a("../../node_modules/lit/index.js");a("../../libs/map/src/components/action/draw-action/draw-line-action/vl-map-draw-line-action.ts"),a("../../libs/map/src/components/action/draw-action/draw-point-action/vl-map-draw-point-action.ts"),a("../../libs/map/src/components/action/draw-action/draw-polygon-action/vl-map-draw-polygon-action.ts"),a("../../libs/map/src/components/action/draw-action/measure-action/vl-map-measure-action.ts"),a("../../libs/map/src/components/action/layer-action/delete-action/vl-map-delete-action.ts"),a("../../libs/map/src/components/action/layer-action/modify-action/vl-map-modify-action.ts"),a("../../libs/map/src/components/action/layer-action/select-action/vl-map-select-action.ts"),a("../../libs/map/src/components/baselayer/vl-map-base-layer-grb-gray/vl-map-base-layer-grb-gray.ts"),a("../../libs/map/src/components/baselayer/vl-map-base-layer-grb-ortho/vl-map-base-layer-grb-ortho.ts"),a("../../libs/map/src/components/baselayer/vl-map-base-layer-grb/vl-map-base-layer-grb.ts"),a("../../libs/map/src/components/controls/measure-control/vl-map-measure-control.ts"),a("../../libs/map/src/components/controls/vl-map-action-controls.ts"),a("../../libs/map/src/components/layer-style/vl-map-layer-circle-style/vl-map-layer-circle-style.ts"),a("../../libs/map/src/components/layer-style/vl-map-layer-style.ts"),a("../../libs/map/src/components/layer-switcher/vl-map-layer-switcher.ts"),a("../../libs/map/src/components/layer/vector-layer/vl-map-features-layer/vl-map-features-layer.ts"),a("../../libs/map/src/components/legend/vl-map-legend.ts");var i=a("../../libs/map/src/components/legend/vl-map-legend.defaults.ts");a("../../libs/map/src/components/overview-map/vl-map-overview-map.ts"),a("../../libs/map/src/components/side-sheet/vl-map-side-sheet.ts"),a("../../libs/map/src/vl-map.ts");var s=a("../../node_modules/@storybook/addon-actions/dist/index.mjs"),c=a("../../libs/map/src/vl-map.model.ts");let d={...n.D8,allowFullscreen:!1,disableEscape:!1,disableRotation:!1,disableMousewheelZoom:!1,disableKeyboard:!1,fullHeight:!1,noBorder:!1,activeActionChange:(0,s.XI)(c.ll.ACTIVE_ACTION_CHANGED),layerVisibleChange:(0,s.XI)(c.ll.LAYER_VISIBLE_CHANGED),lambert2008:!1},p={...(0,n.RN)(),allowFullscreen:{name:"data-vl-allow-fullscreen",description:"Laat de map toe afgebeeld te worden in fullscreen.<br>Dit kan niet gebruikt worden op mobile.<br>Dit attribuut is niet reactief.",table:{type:{summary:n.QE.BOOLEAN},category:n.R6.ATTRIBUTES,defaultValue:{summary:d.allowFullscreen}}},disableEscape:{name:"data-vl-disable-escape-key",description:"Schakelt de escape-key uit.<br>Dit attribuut is niet reactief.",table:{type:{summary:n.QE.BOOLEAN},category:n.R6.ATTRIBUTES,defaultValue:{summary:d.disableEscape}}},disableRotation:{name:"data-vl-disable-rotation",description:"Schakelt het roteren van de map uit.<br>Dit attribuut is niet reactief.",table:{type:{summary:n.QE.BOOLEAN},category:n.R6.ATTRIBUTES,defaultValue:{summary:d.disableRotation}}},disableMousewheelZoom:{name:"data-vl-disable-mouse-wheel-zoom",description:"Schakelt het zoomen van de map via het muiswiel uit.<br>Dit attribuut is niet reactief.",table:{type:{summary:n.QE.BOOLEAN},category:n.R6.ATTRIBUTES,defaultValue:{summary:d.disableMousewheelZoom}}},disableKeyboard:{name:"data-vl-disable-keyboard",description:"Schakelt de keyboard input uit voor de map.<br>Dit attribuut is niet reactief.",table:{type:{summary:n.QE.BOOLEAN},category:n.R6.ATTRIBUTES,defaultValue:{summary:d.disableKeyboard}}},fullHeight:{name:"data-vl-full-height",description:"De map neemt de volledige beschikbare hoogte in van zijn parent.<br>Zie de docs pagina voor meer informatie over het gebruik van dit attribuut.",table:{type:{summary:n.QE.BOOLEAN},category:n.R6.ATTRIBUTES,defaultValue:{summary:d.fullHeight}}},lambert2008:{name:"lambert2008",description:"Indien aanwezig wordt de kaart in het coördinatenstelsel Lambert 2008 weergegeven (EPSG:3812).<br>Indien niet aanwezig wordt de kaart in het coördinatenstelsel Lambert 72 weergegeven (EPSG:31370).<br>Dit attribuut is niet reactief. In de toekomst wordt Lambert 2008 de default.",table:{type:{summary:n.QE.BOOLEAN},category:n.R6.ATTRIBUTES,defaultValue:{summary:d.lambert2008}}},noBorder:{name:"data-vl-no-border",description:"De border rond de map wordt niet afgebeeld.",table:{type:{summary:n.QE.BOOLEAN},category:n.R6.ATTRIBUTES,defaultValue:{summary:d.noBorder}}},activeActionChange:{name:c.ll.ACTIVE_ACTION_CHANGED,description:"Afgevuurd als de actieve map-actie verandert.",table:{type:{summary:"{ previous?: VlMapAction, current?: VlMapAction }"},category:n.R6.EVENTS}},layerVisibleChange:{name:c.ll.LAYER_VISIBLE_CHANGED,description:"Afgevuurd als de visible state van een map-layer verandert.",table:{type:{summary:"{ layer: VlMapLayer, visible: boolean }"},category:n.R6.EVENTS}}};a("../../node_modules/react/index.js");var m=a("../../node_modules/react/jsx-runtime.js"),v=a("../../node_modules/@storybook/addon-docs/node_modules/@mdx-js/react/lib/index.js"),u=a("../../node_modules/@storybook/blocks/dist/index.mjs");function h(e){let t=Object.assign({h1:"h1",p:"p",code:"code",h2:"h2",pre:"pre",h3:"h3",ul:"ul",li:"li",strong:"strong",a:"a"},(0,v.RP)(),e.components),{VluxMetaData:a,VluxAlert:n}=t;return n||g("VluxAlert",!0),a||g("VluxMetaData",!0),(0,m.jsxs)(m.Fragment,{children:[(0,m.jsx)(t.h1,{id:"map",children:"Map"}),"\n",(0,m.jsx)(a,{id:"map-map"}),"\n",(0,m.jsxs)(t.p,{children:["Gebruik de ",(0,m.jsx)(t.code,{children:"map"})," component om een kaart af te beelden met verschillende lagen en acties."]}),"\n",(0,m.jsx)(t.h2,{id:"voorbeeld",children:"Voorbeeld"}),"\n",(0,m.jsx)(t.pre,{children:(0,m.jsx)(t.code,{className:"language-js",children:"import { VlMap } from '@domg-wc/map';\n"})}),"\n",(0,m.jsx)(t.pre,{children:(0,m.jsx)(t.code,{className:"language-html",children:"<vl-map></vl-map>\n"})}),"\n",(0,m.jsx)(u.Hl,{of:$}),"\n",(0,m.jsx)(t.h2,{id:"lambert-2008",children:"Lambert 2008"}),"\n",(0,m.jsxs)(t.p,{children:["In het kader van de transitie naar het Lambert 2008 coördinatenstelsel, hebben we ervoor gekozen om te starten met een\nopt-in voor Lambert 2008. In een volgende versie wordt dit de default. Om kaarten en kaartlagen weer te geven als\nLambert 2008 kan je het attribuut ",(0,m.jsx)(t.code,{children:"lambert2008"})," toevoegen:"]}),"\n",(0,m.jsx)(t.pre,{children:(0,m.jsx)(t.code,{className:"language-html",children:"<vl-map lambert2008></vl-map>\n"})}),"\n",(0,m.jsx)(t.h3,{id:"lambert-72-data-op-een-lambert-2008-kaart",children:"Lambert 72 data op een Lambert 2008 kaart"}),"\n",(0,m.jsxs)(t.p,{children:["Indien je vector kaartlagen (features en WFS) gebruikt met Lambert 72 coördinaten op een Lambert 2008 kaart, moet je de\nprojectie code ",(0,m.jsx)(t.code,{children:"EPSG:31370"})," meegeven als attribuut op de kaartlaag. Geef je geen projectie code mee, dan zal de\nkaartlaag de projectie code van de kaart overnemen."]}),"\n",(0,m.jsx)(t.pre,{children:(0,m.jsx)(t.code,{className:"language-html",children:'<vl-map lambert2008>\n    <vl-map-features-layer projection-code="EPSG:31370" ...></vl-map-features-layer>\n    <vl-map-wfs-layer projection-code="EPSG:31370" ...></vl-map-wfs-layer>\n</vl-map>\n'})}),"\n",(0,m.jsx)(n,{type:"warning",children:`
+    De client-side transformatie van Lambert 72 naar Lambert 2008 heeft een begrensde nauwkeurigheid van ~1m. Is cm 
+    nauwkeurigheid vereist, dan is het belangrijk dat de kaart en de kaartlagen hetzelfde co\xf6rdinatenstelsel gebruiken.
+`}),"\n",(0,m.jsx)(t.h3,{id:"intekenen-op-een-lambert-2008-kaart",children:"Intekenen op een Lambert 2008 kaart"}),"\n",(0,m.jsx)(t.p,{children:"Om in te tekenen op een Lambert 2008 kaart moet een Lambert 2008 kaartlaag gebruikt worden, omwille van de\nbeschikbare nauwkeurigheid van ~1m van de Lambert 72 naar Lambert 2008 transformatie."}),"\n",(0,m.jsx)(t.p,{children:"Vereist je project Lambert 72 coordinaten bij het intekenen, dan wordt het upgraden naar de Lambert 2008 kaart\nbeter uitgesteld tot wanneer het project ook Lambert 2008 data ondersteunt. De regel hierbij is dat het\ncoördinatenstelsel van intekenen hetzelfde moet zijn als dat van de kaart."}),"\n",(0,m.jsx)(t.h2,{id:"configuratie",children:"Configuratie"}),"\n",(0,m.jsx)(u.ov,{of:$}),"\n",(0,m.jsx)(t.h2,{id:"varianten",children:"Varianten"}),"\n",(0,m.jsx)(t.h3,{id:"volledige-hoogte",children:"Volledige hoogte"}),"\n",(0,m.jsx)(t.p,{children:"De map de volledige beschikbare hoogte in laten nemen kan op de volgende manier:"}),"\n",(0,m.jsxs)(t.ul,{children:["\n",(0,m.jsxs)(t.li,{children:["plaats op de parent een ",(0,m.jsx)(t.code,{children:"height"})," of een ",(0,m.jsx)(t.code,{children:"min-height"})]}),"\n",(0,m.jsxs)(t.li,{children:["plaats op de parent ",(0,m.jsx)(t.code,{children:"display: flex"})," en ",(0,m.jsx)(t.code,{children:"flex-direction: column"})]}),"\n",(0,m.jsxs)(t.li,{children:["plaats op de vl-map het attribuut ",(0,m.jsx)(t.code,{children:"data-vl-full-height"})]}),"\n",(0,m.jsxs)(t.li,{children:["zorg dat de parent ",(0,m.jsx)(t.strong,{children:"geen elementen"})," heeft met ",(0,m.jsx)(t.code,{children:"position: fixed"})," die deel uit moeten maken van de hoogte"]}),"\n"]}),"\n",(0,m.jsx)(u.Hl,{of:E}),"\n",(0,m.jsx)(t.h3,{id:"playground",children:"Playground"}),"\n",(0,m.jsx)(t.p,{children:"Zie de code onder de story voor het volledige voorbeeld."}),"\n",(0,m.jsx)(u.Hl,{of:T}),"\n",(0,m.jsx)(t.h2,{id:"referenties",children:"Referenties"}),"\n",(0,m.jsx)(t.h3,{id:"digitaal-vlaanderen",children:"Digitaal Vlaanderen"}),"\n",(0,m.jsxs)(t.p,{children:["De ",(0,m.jsx)(t.code,{children:"map"})," component is een component van Departement Omgeving en heeft geen Digitaal Vlaanderen documentatie."]}),"\n",(0,m.jsx)(t.h3,{id:"legacy-documentatie",children:"Legacy Documentatie"}),"\n",(0,m.jsx)(t.p,{children:(0,m.jsx)(t.a,{href:"https://webcomponenten.omgeving.vlaanderen.be/storybook/?path=/docs/custom-elements-vl-map--default",target:"_blank",rel:"nofollow noopener noreferrer",children:"Legacy Storybook - Map"})}),"\n",(0,m.jsx)(t.p,{children:(0,m.jsx)(t.a,{href:"https://webcomponenten.omgeving.vlaanderen.be/doc/VlMap.html",target:"_blank",rel:"nofollow noopener noreferrer",children:"Legacy Documentatie - Map"})}),"\n",(0,m.jsx)(t.p,{children:(0,m.jsx)(t.a,{href:"https://webcomponenten.omgeving.vlaanderen.be/demo/vl-map.html",target:"_blank",rel:"nofollow noopener noreferrer",children:"Legacy Demo - Map"})})]})}function g(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}let b=e=>w(`${e}-action`),y=e=>w(`${e}-toggle-button`),f=["draw-point","draw-line","draw-polygon","modify","delete"],w=e=>{let t=document.getElementsByClassName(e);return t[t.length-1]},x=({detail:{previous:e,current:t}})=>{f.forEach(a=>{e===b(a)?y(a).on=!1:t===b(a)&&(y(a).on=!0)})},_=({detail:{layer:e,visible:t}})=>{for(let a of e.getElementsByClassName("action"))f.forEach(e=>{a===b(e)&&(y(e).disabled=!t)})},k=({detail:{value:e}})=>{let t=document.querySelectorAll("vl-map-features-layer");t?.forEach(t=>{t.setAttribute("data-vl-opacity",e/100)})};(0,l.gy)([o.I]);let j={id:"map-map",title:"map/map",tags:["autodocs"],args:d,argTypes:p,parameters:{docs:{page:function(e={}){let{wrapper:t}=Object.assign({},(0,v.RP)(),e.components);return t?(0,m.jsx)(t,Object.assign({},e,{children:(0,m.jsx)(h,e)})):h(e)}}}},$=(0,n._7)(d,({allowFullscreen:e,disableEscape:t,disableRotation:a,disableMousewheelZoom:n,disableKeyboard:l,noBorder:o,fullHeight:i})=>(0,r.qy)`
+        <vl-map
+            ?data-vl-allow-fullscreen=${e}
+            ?data-vl-disable-escape-key=${t}
+            ?data-vl-disable-rotation=${a}
+            ?data-vl-disable-mouse-wheel-zoom=${n}
+            ?data-vl-disable-keyboard=${l}
+            ?data-vl-no-border=${o}
+            ?data-vl-full-height=${i}
+            data-vl-zoomInTooltip="Zoom in"
+            data-vl-zoomOutTooltip="Zoom uit"
+        >
+            <vl-map-baselayer-grb-gray></vl-map-baselayer-grb-gray>
+        </vl-map>
+    `);$.storyName="vl-map - default";let E=(0,n._7)(d,({allowFullscreen:e,disableEscape:t,disableRotation:a,disableMousewheelZoom:n,disableKeyboard:l,noBorder:o,fullHeight:i})=>(0,r.qy)`
+        <div style="height: 800px; display: flex; flex-direction: column; border: 1px solid black">
+            <vl-functional-header
+                data-vl-sub-title=${"Voor lager, middelbaar en hoger onderwijs"}
+                data-vl-title=${"School- en studietoelagen"}
+                data-vl-margin-bottom=${"none"}
+                ?data-vl-disable-back-link=${!0}
+            ></vl-functional-header>
+            <vl-map
+                ?data-vl-allow-fullscreen=${e}
+                ?data-vl-disable-escape-key=${t}
+                ?data-vl-disable-rotation=${a}
+                ?data-vl-disable-mouse-wheel-zoom=${n}
+                ?data-vl-disable-keyboard=${l}
+                ?data-vl-no-border=${o}
+                ?data-vl-full-height=${i}
+                data-vl-zoomInTooltip="Zoom in"
+                data-vl-zoomOutTooltip="Zoom uit"
+            >
+                <vl-map-baselayer-grb-gray></vl-map-baselayer-grb-gray>
+            </vl-map>
+        </div>
+    `);E.storyName="vl-map - full height",E.args={noBorder:!0,fullHeight:!0};let A="rgba(102, 51, 153, 0.6)",S="width: 100%;",L="display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem;",I={type:"FeatureCollection",features:[{type:"Feature",id:1,geometry:{type:"Point",coordinates:[21e4,19e4]}},{type:"Feature",id:2,geometry:{type:"LineString",coordinates:[[17e4,17e4],[15e4,206e3]]}},{type:"Feature",id:3,geometry:{type:"Polygon",coordinates:[[[44e3,171e3],[1e5,171e3],[1e5,205e3],[44e3,205e3],[44e3,171e3]]]}}]},T=(0,n._7)(d,({allowFullscreen:e,disableEscape:t,disableRotation:a,disableMousewheelZoom:n,disableKeyboard:l,noBorder:o,fullHeight:s,activeActionChange:c,layerVisibleChange:d})=>(0,r.qy)`
+        <vl-map
+            lambert2008
+            ?data-vl-allow-fullscreen=${e}
+            ?data-vl-disable-escape-key=${t}
+            ?data-vl-disable-rotation=${a}
+            ?data-vl-disable-mouse-wheel-zoom=${n}
+            ?data-vl-disable-keyboard=${l}
+            ?data-vl-no-border=${o}
+            ?data-vl-full-height=${s}
+            @vl-active-action-changed=${e=>{c({previous:e.detail.previous}),c({current:e.detail.current}),x(e)}}
+            @vl-layer-visible-changed=${e=>{d(e.detail),_(e)}}
+        >
+            <vl-map-action-controls>
+                <vl-map-measure-control></vl-map-measure-control>
+            </vl-map-action-controls>
+
+            <vl-map-side-sheet>
+                <vl-title-next type="h6">Layers</vl-title-next>
+
+                <vl-map-layer-switcher></vl-map-layer-switcher>
+                <vl-input-slider data-vl-value=${100} @vl-change-value=${k}></vl-input-slider>
+
+                <hr />
+
+                <vl-title-next type="h6">Measure</vl-title-next>
+
+                <div>
+                    <vl-button-next
+                        @click=${()=>{b("measure").active=!0}}
+                    >
+                        Start
+                    </vl-button-next>
+                    <vl-button-next
+                        @click=${()=>{b("measure").active=!1}}
+                    >
+                        Stop
+                    </vl-button-next>
+                </div>
+
+                <hr />
+
+                <div style=${S}>
+                    <vl-title-next type="h6">Shapes</vl-title-next>
+
+                    <div style="margin-bottom: 2rem;">
+                        <vl-button-next
+                            toggle
+                            class="modify-toggle-button"
+                            @click=${()=>{b("modify").active=y("modify").on}}
+                        >
+                            Modify
+                        </vl-button-next>
+                        <vl-button-next
+                            toggle
+                            class="delete-toggle-button"
+                            @click=${()=>{b("delete").active=y("delete").on}}
+                        >
+                            Delete
+                        </vl-button-next>
+                    </div>
+
+                    <div style=${L}>
+                        <vl-button-next
+                            toggle
+                            icon="pencil"
+                            label="Toggle draw point action"
+                            class="draw-point-toggle-button"
+                            @click=${()=>{b("draw-point").active=y("draw-point").on}}
+                        >
+                        </vl-button-next>
+                        <p>Draw point</p>
+                    </div>
+
+                    <div style=${L}>
+                        <vl-button-next
+                            toggle
+                            icon="pencil"
+                            label="Toggle draw line action"
+                            class="draw-line-toggle-button"
+                            @click=${()=>{b("draw-line").active=y("draw-line").on}}
+                        >
+                        </vl-button-next>
+                        <p>Draw line</p>
+                    </div>
+
+                    <div style=${L}>
+                        <vl-button-next
+                            toggle
+                            icon="pencil"
+                            label="Toggle draw polygon action"
+                            class="draw-polygon-toggle-button"
+                            @click=${()=>{b("draw-polygon").active=y("draw-polygon").on}}
+                        >
+                        </vl-button-next>
+                        <p>Draw Polygon</p>
+                    </div>
+                </div>
+            </vl-map-side-sheet>
+
+            <vl-map-overview-map></vl-map-overview-map>
+
+            <vl-map-baselayer-grb-gray></vl-map-baselayer-grb-gray>
+            <vl-map-baselayer-grb></vl-map-baselayer-grb>
+            <vl-map-baselayer-grb-ortho></vl-map-baselayer-grb-ortho>
+
+            <vl-map-features-layer data-vl-name="Shapes" .features=${I} projection-code="EPSG:31370">
+                <vl-map-layer-style data-vl-name="Shapes" border-color=${A} color=${A}></vl-map-layer-style>
+                <vl-map-layer-circle-style
+                    data-vl-border-color=${A}
+                    data-vl-color=${A}
+                ></vl-map-layer-circle-style>
+
+                <vl-map-draw-point-action class="draw-point-action action"></vl-map-draw-point-action>
+                <vl-map-draw-line-action class="draw-line-action action"></vl-map-draw-line-action>
+                <vl-map-draw-polygon-action class="draw-polygon-action action"></vl-map-draw-polygon-action>
+
+                <vl-map-modify-action class="modify-action action"></vl-map-modify-action>
+                <vl-map-delete-action class="delete-action action"></vl-map-delete-action>
+                <vl-map-select-action class="select-action action" data-vl-default-active></vl-map-select-action>
+            </vl-map-features-layer>
+
+            <vl-map-features-layer data-vl-name="Measurements" projection-code="EPSG:31370">
+                <vl-map-layer-style
+                    data-vl-color="rgba(6, 163, 247, 1)"
+                    data-vl-border-size="2"
+                    data-vl-border-color="rgba(6, 163, 247, 1)"
+                ></vl-map-layer-style>
+                <vl-map-measure-action class="measure-action action"></vl-map-measure-action>
+            </vl-map-features-layer>
+            <vl-map-legend data-vl-placement=${i.s.BOTTOM_RIGHT} right="140px"></vl-map-legend>
+        </vl-map>
+    `);T.storyName="vl-map - playground";let M=(0,n._7)(d,({allowFullscreen:e,disableEscape:t,disableRotation:a,disableMousewheelZoom:n,disableKeyboard:l,noBorder:o,fullHeight:s,activeActionChange:c,layerVisibleChange:d})=>(0,r.qy)`
+        <vl-map
+            ?data-vl-allow-fullscreen=${e}
+            ?data-vl-disable-escape-key=${t}
+            ?data-vl-disable-rotation=${a}
+            ?data-vl-disable-mouse-wheel-zoom=${n}
+            ?data-vl-disable-keyboard=${l}
+            ?data-vl-no-border=${o}
+            ?data-vl-full-height=${s}
+            @vl-active-action-changed=${e=>{c({previous:e.detail.previous}),c({current:e.detail.current}),x(e)}}
+            @vl-layer-visible-changed=${e=>{d(e.detail),_(e)}}
+        >
+            <vl-map-action-controls>
+                <vl-map-measure-control></vl-map-measure-control>
+            </vl-map-action-controls>
+
+            <vl-map-side-sheet>
+                <vl-title-next type="h6">Layers</vl-title-next>
+
+                <vl-map-layer-switcher></vl-map-layer-switcher>
+                <vl-input-slider data-vl-value=${100} @vl-change-value=${k}></vl-input-slider>
+
+                <hr />
+
+                <vl-title-next type="h6">Measure</vl-title-next>
+
+                <div>
+                    <vl-button-next
+                        @click=${()=>{b("measure").active=!0}}
+                    >
+                        Start
+                    </vl-button-next>
+                    <vl-button-next
+                        @click=${()=>{b("measure").active=!1}}
+                    >
+                        Stop
+                    </vl-button-next>
+                </div>
+
+                <hr />
+
+                <div style=${S}>
+                    <vl-title-next type="h6">Shapes</vl-title-next>
+
+                    <div style="margin-bottom: 2rem;">
+                        <vl-button-next
+                            toggle
+                            class="modify-toggle-button"
+                            @click=${()=>{b("modify").active=y("modify").on}}
+                        >
+                            Modify
+                        </vl-button-next>
+                        <vl-button-next
+                            toggle
+                            class="delete-toggle-button"
+                            @click=${()=>{b("delete").active=y("delete").on}}
+                        >
+                            Delete
+                        </vl-button-next>
+                    </div>
+
+                    <div style=${L}>
+                        <vl-button-next
+                            toggle
+                            icon="pencil"
+                            label="Toggle draw point action"
+                            class="draw-point-toggle-button"
+                            @click=${()=>{b("draw-point").active=y("draw-point").on}}
+                        >
+                        </vl-button-next>
+                        <p>Draw point</p>
+                    </div>
+
+                    <div style=${L}>
+                        <vl-button-next
+                            toggle
+                            icon="pencil"
+                            label="Toggle draw line action"
+                            class="draw-line-toggle-button"
+                            @click=${()=>{b("draw-line").active=y("draw-line").on}}
+                        >
+                        </vl-button-next>
+                        <p>Draw line</p>
+                    </div>
+
+                    <div style=${L}>
+                        <vl-button-next
+                            toggle
+                            icon="pencil"
+                            label="Toggle draw polygon action"
+                            class="draw-polygon-toggle-button"
+                            @click=${()=>{b("draw-polygon").active=y("draw-polygon").on}}
+                        >
+                        </vl-button-next>
+                        <p>Draw Polygon</p>
+                    </div>
+                </div>
+            </vl-map-side-sheet>
+
+            <vl-map-overview-map></vl-map-overview-map>
+
+            <vl-map-baselayer-grb-gray></vl-map-baselayer-grb-gray>
+            <vl-map-baselayer-grb></vl-map-baselayer-grb>
+            <vl-map-baselayer-grb-ortho></vl-map-baselayer-grb-ortho>
+
+            <vl-map-features-layer data-vl-name="Shapes" .features=${I}>
+                <vl-map-layer-style
+                    data-vl-name="Shapes"
+                    data-vl-border-color=${A}
+                    data-vl-color=${A}
+                ></vl-map-layer-style>
+                <vl-map-layer-circle-style
+                    data-vl-border-color=${A}
+                    data-vl-color=${A}
+                ></vl-map-layer-circle-style>
+
+                <vl-map-draw-point-action class="draw-point-action action"></vl-map-draw-point-action>
+                <vl-map-draw-line-action class="draw-line-action action"></vl-map-draw-line-action>
+                <vl-map-draw-polygon-action class="draw-polygon-action action"></vl-map-draw-polygon-action>
+
+                <vl-map-modify-action class="modify-action action"></vl-map-modify-action>
+                <vl-map-delete-action class="delete-action action"></vl-map-delete-action>
+                <vl-map-select-action class="select-action action" data-vl-default-active></vl-map-select-action>
+            </vl-map-features-layer>
+
+            <vl-map-features-layer data-vl-name="Measurements">
+                <vl-map-layer-style
+                    data-vl-color="rgba(6, 163, 247, 1)"
+                    data-vl-border-size="2"
+                    data-vl-border-color="rgba(6, 163, 247, 1)"
+                ></vl-map-layer-style>
+                <vl-map-measure-action class="measure-action action"></vl-map-measure-action>
+            </vl-map-features-layer>
+            <vl-map-legend data-vl-placement=${i.s.BOTTOM_RIGHT} right="140px"></vl-map-legend>
+        </vl-map>
+    `);M.storyName="vl-map - playground - Lambert 72",$.parameters={...$.parameters,docs:{...$.parameters?.docs,source:{originalSource:'story(mapArgs, ({\n  allowFullscreen,\n  disableEscape,\n  disableRotation,\n  disableMousewheelZoom,\n  disableKeyboard,\n  noBorder,\n  fullHeight\n}) => html`\n        <vl-map\n            ?data-vl-allow-fullscreen=${allowFullscreen}\n            ?data-vl-disable-escape-key=${disableEscape}\n            ?data-vl-disable-rotation=${disableRotation}\n            ?data-vl-disable-mouse-wheel-zoom=${disableMousewheelZoom}\n            ?data-vl-disable-keyboard=${disableKeyboard}\n            ?data-vl-no-border=${noBorder}\n            ?data-vl-full-height=${fullHeight}\n            data-vl-zoomInTooltip="Zoom in"\n            data-vl-zoomOutTooltip="Zoom uit"\n        >\n            <vl-map-baselayer-grb-gray></vl-map-baselayer-grb-gray>\n        </vl-map>\n    `)',...$.parameters?.docs?.source}}},E.parameters={...E.parameters,docs:{...E.parameters?.docs,source:{originalSource:"story(mapArgs, ({\n  allowFullscreen,\n  disableEscape,\n  disableRotation,\n  disableMousewheelZoom,\n  disableKeyboard,\n  noBorder,\n  fullHeight\n}) => html`\n        <div style=\"height: 800px; display: flex; flex-direction: column; border: 1px solid black\">\n            <vl-functional-header\n                data-vl-sub-title=${'Voor lager, middelbaar en hoger onderwijs'}\n                data-vl-title=${'School- en studietoelagen'}\n                data-vl-margin-bottom=${'none'}\n                ?data-vl-disable-back-link=${true}\n            ></vl-functional-header>\n            <vl-map\n                ?data-vl-allow-fullscreen=${allowFullscreen}\n                ?data-vl-disable-escape-key=${disableEscape}\n                ?data-vl-disable-rotation=${disableRotation}\n                ?data-vl-disable-mouse-wheel-zoom=${disableMousewheelZoom}\n                ?data-vl-disable-keyboard=${disableKeyboard}\n                ?data-vl-no-border=${noBorder}\n                ?data-vl-full-height=${fullHeight}\n                data-vl-zoomInTooltip=\"Zoom in\"\n                data-vl-zoomOutTooltip=\"Zoom uit\"\n            >\n                <vl-map-baselayer-grb-gray></vl-map-baselayer-grb-gray>\n            </vl-map>\n        </div>\n    `)",...E.parameters?.docs?.source}}},T.parameters={...T.parameters,docs:{...T.parameters?.docs,source:{originalSource:'story(mapArgs, ({\n  allowFullscreen,\n  disableEscape,\n  disableRotation,\n  disableMousewheelZoom,\n  disableKeyboard,\n  noBorder,\n  fullHeight,\n  activeActionChange,\n  layerVisibleChange\n}) => html`\n        <vl-map\n            lambert2008\n            ?data-vl-allow-fullscreen=${allowFullscreen}\n            ?data-vl-disable-escape-key=${disableEscape}\n            ?data-vl-disable-rotation=${disableRotation}\n            ?data-vl-disable-mouse-wheel-zoom=${disableMousewheelZoom}\n            ?data-vl-disable-keyboard=${disableKeyboard}\n            ?data-vl-no-border=${noBorder}\n            ?data-vl-full-height=${fullHeight}\n            @vl-active-action-changed=${event => {\n  activeActionChange({\n    previous: event.detail.previous\n  });\n  activeActionChange({\n    current: event.detail.current\n  });\n  handleActiveActionChange(event);\n}}\n            @vl-layer-visible-changed=${event => {\n  layerVisibleChange(event.detail);\n  handleLayerVisibleChange(event);\n}}\n        >\n            <vl-map-action-controls>\n                <vl-map-measure-control></vl-map-measure-control>\n            </vl-map-action-controls>\n\n            <vl-map-side-sheet>\n                <vl-title-next type="h6">Layers</vl-title-next>\n\n                <vl-map-layer-switcher></vl-map-layer-switcher>\n                <vl-input-slider data-vl-value=${100} @vl-change-value=${handleOpacitySliderChange}></vl-input-slider>\n\n                <hr />\n\n                <vl-title-next type="h6">Measure</vl-title-next>\n\n                <div>\n                    <vl-button-next\n                        @click=${() => {\n  getActionElement(\'measure\').active = true;\n}}\n                    >\n                        Start\n                    </vl-button-next>\n                    <vl-button-next\n                        @click=${() => {\n  getActionElement(\'measure\').active = false;\n}}\n                    >\n                        Stop\n                    </vl-button-next>\n                </div>\n\n                <hr />\n\n                <div style=${toggleGroupStyling}>\n                    <vl-title-next type="h6">Shapes</vl-title-next>\n\n                    <div style="margin-bottom: 2rem;">\n                        <vl-button-next\n                            toggle\n                            class="modify-toggle-button"\n                            @click=${() => {\n  getActionElement(\'modify\').active = getToggleButton(\'modify\').on;\n}}\n                        >\n                            Modify\n                        </vl-button-next>\n                        <vl-button-next\n                            toggle\n                            class="delete-toggle-button"\n                            @click=${() => {\n  getActionElement(\'delete\').active = getToggleButton(\'delete\').on;\n}}\n                        >\n                            Delete\n                        </vl-button-next>\n                    </div>\n\n                    <div style=${toggleItemStyling}>\n                        <vl-button-next\n                            toggle\n                            icon="pencil"\n                            label="Toggle draw point action"\n                            class="draw-point-toggle-button"\n                            @click=${() => {\n  getActionElement(\'draw-point\').active = getToggleButton(\'draw-point\').on;\n}}\n                        >\n                        </vl-button-next>\n                        <p>Draw point</p>\n                    </div>\n\n                    <div style=${toggleItemStyling}>\n                        <vl-button-next\n                            toggle\n                            icon="pencil"\n                            label="Toggle draw line action"\n                            class="draw-line-toggle-button"\n                            @click=${() => {\n  getActionElement(\'draw-line\').active = getToggleButton(\'draw-line\').on;\n}}\n                        >\n                        </vl-button-next>\n                        <p>Draw line</p>\n                    </div>\n\n                    <div style=${toggleItemStyling}>\n                        <vl-button-next\n                            toggle\n                            icon="pencil"\n                            label="Toggle draw polygon action"\n                            class="draw-polygon-toggle-button"\n                            @click=${() => {\n  getActionElement(\'draw-polygon\').active = getToggleButton(\'draw-polygon\').on;\n}}\n                        >\n                        </vl-button-next>\n                        <p>Draw Polygon</p>\n                    </div>\n                </div>\n            </vl-map-side-sheet>\n\n            <vl-map-overview-map></vl-map-overview-map>\n\n            <vl-map-baselayer-grb-gray></vl-map-baselayer-grb-gray>\n            <vl-map-baselayer-grb></vl-map-baselayer-grb>\n            <vl-map-baselayer-grb-ortho></vl-map-baselayer-grb-ortho>\n\n            <vl-map-features-layer data-vl-name="Shapes" .features=${features} projection-code="EPSG:31370">\n                <vl-map-layer-style data-vl-name="Shapes" border-color=${purple} color=${purple}></vl-map-layer-style>\n                <vl-map-layer-circle-style\n                    data-vl-border-color=${purple}\n                    data-vl-color=${purple}\n                ></vl-map-layer-circle-style>\n\n                <vl-map-draw-point-action class="draw-point-action action"></vl-map-draw-point-action>\n                <vl-map-draw-line-action class="draw-line-action action"></vl-map-draw-line-action>\n                <vl-map-draw-polygon-action class="draw-polygon-action action"></vl-map-draw-polygon-action>\n\n                <vl-map-modify-action class="modify-action action"></vl-map-modify-action>\n                <vl-map-delete-action class="delete-action action"></vl-map-delete-action>\n                <vl-map-select-action class="select-action action" data-vl-default-active></vl-map-select-action>\n            </vl-map-features-layer>\n\n            <vl-map-features-layer data-vl-name="Measurements" projection-code="EPSG:31370">\n                <vl-map-layer-style\n                    data-vl-color="rgba(6, 163, 247, 1)"\n                    data-vl-border-size="2"\n                    data-vl-border-color="rgba(6, 163, 247, 1)"\n                ></vl-map-layer-style>\n                <vl-map-measure-action class="measure-action action"></vl-map-measure-action>\n            </vl-map-features-layer>\n            <vl-map-legend data-vl-placement=${LEGEND_PLACEMENT.BOTTOM_RIGHT} right="140px"></vl-map-legend>\n        </vl-map>\n    `)',...T.parameters?.docs?.source}}},M.parameters={...M.parameters,docs:{...M.parameters?.docs,source:{originalSource:'story(mapArgs, ({\n  allowFullscreen,\n  disableEscape,\n  disableRotation,\n  disableMousewheelZoom,\n  disableKeyboard,\n  noBorder,\n  fullHeight,\n  activeActionChange,\n  layerVisibleChange\n}) => html`\n        <vl-map\n            ?data-vl-allow-fullscreen=${allowFullscreen}\n            ?data-vl-disable-escape-key=${disableEscape}\n            ?data-vl-disable-rotation=${disableRotation}\n            ?data-vl-disable-mouse-wheel-zoom=${disableMousewheelZoom}\n            ?data-vl-disable-keyboard=${disableKeyboard}\n            ?data-vl-no-border=${noBorder}\n            ?data-vl-full-height=${fullHeight}\n            @vl-active-action-changed=${event => {\n  activeActionChange({\n    previous: event.detail.previous\n  });\n  activeActionChange({\n    current: event.detail.current\n  });\n  handleActiveActionChange(event);\n}}\n            @vl-layer-visible-changed=${event => {\n  layerVisibleChange(event.detail);\n  handleLayerVisibleChange(event);\n}}\n        >\n            <vl-map-action-controls>\n                <vl-map-measure-control></vl-map-measure-control>\n            </vl-map-action-controls>\n\n            <vl-map-side-sheet>\n                <vl-title-next type="h6">Layers</vl-title-next>\n\n                <vl-map-layer-switcher></vl-map-layer-switcher>\n                <vl-input-slider data-vl-value=${100} @vl-change-value=${handleOpacitySliderChange}></vl-input-slider>\n\n                <hr />\n\n                <vl-title-next type="h6">Measure</vl-title-next>\n\n                <div>\n                    <vl-button-next\n                        @click=${() => {\n  getActionElement(\'measure\').active = true;\n}}\n                    >\n                        Start\n                    </vl-button-next>\n                    <vl-button-next\n                        @click=${() => {\n  getActionElement(\'measure\').active = false;\n}}\n                    >\n                        Stop\n                    </vl-button-next>\n                </div>\n\n                <hr />\n\n                <div style=${toggleGroupStyling}>\n                    <vl-title-next type="h6">Shapes</vl-title-next>\n\n                    <div style="margin-bottom: 2rem;">\n                        <vl-button-next\n                            toggle\n                            class="modify-toggle-button"\n                            @click=${() => {\n  getActionElement(\'modify\').active = getToggleButton(\'modify\').on;\n}}\n                        >\n                            Modify\n                        </vl-button-next>\n                        <vl-button-next\n                            toggle\n                            class="delete-toggle-button"\n                            @click=${() => {\n  getActionElement(\'delete\').active = getToggleButton(\'delete\').on;\n}}\n                        >\n                            Delete\n                        </vl-button-next>\n                    </div>\n\n                    <div style=${toggleItemStyling}>\n                        <vl-button-next\n                            toggle\n                            icon="pencil"\n                            label="Toggle draw point action"\n                            class="draw-point-toggle-button"\n                            @click=${() => {\n  getActionElement(\'draw-point\').active = getToggleButton(\'draw-point\').on;\n}}\n                        >\n                        </vl-button-next>\n                        <p>Draw point</p>\n                    </div>\n\n                    <div style=${toggleItemStyling}>\n                        <vl-button-next\n                            toggle\n                            icon="pencil"\n                            label="Toggle draw line action"\n                            class="draw-line-toggle-button"\n                            @click=${() => {\n  getActionElement(\'draw-line\').active = getToggleButton(\'draw-line\').on;\n}}\n                        >\n                        </vl-button-next>\n                        <p>Draw line</p>\n                    </div>\n\n                    <div style=${toggleItemStyling}>\n                        <vl-button-next\n                            toggle\n                            icon="pencil"\n                            label="Toggle draw polygon action"\n                            class="draw-polygon-toggle-button"\n                            @click=${() => {\n  getActionElement(\'draw-polygon\').active = getToggleButton(\'draw-polygon\').on;\n}}\n                        >\n                        </vl-button-next>\n                        <p>Draw Polygon</p>\n                    </div>\n                </div>\n            </vl-map-side-sheet>\n\n            <vl-map-overview-map></vl-map-overview-map>\n\n            <vl-map-baselayer-grb-gray></vl-map-baselayer-grb-gray>\n            <vl-map-baselayer-grb></vl-map-baselayer-grb>\n            <vl-map-baselayer-grb-ortho></vl-map-baselayer-grb-ortho>\n\n            <vl-map-features-layer data-vl-name="Shapes" .features=${features}>\n                <vl-map-layer-style\n                    data-vl-name="Shapes"\n                    data-vl-border-color=${purple}\n                    data-vl-color=${purple}\n                ></vl-map-layer-style>\n                <vl-map-layer-circle-style\n                    data-vl-border-color=${purple}\n                    data-vl-color=${purple}\n                ></vl-map-layer-circle-style>\n\n                <vl-map-draw-point-action class="draw-point-action action"></vl-map-draw-point-action>\n                <vl-map-draw-line-action class="draw-line-action action"></vl-map-draw-line-action>\n                <vl-map-draw-polygon-action class="draw-polygon-action action"></vl-map-draw-polygon-action>\n\n                <vl-map-modify-action class="modify-action action"></vl-map-modify-action>\n                <vl-map-delete-action class="delete-action action"></vl-map-delete-action>\n                <vl-map-select-action class="select-action action" data-vl-default-active></vl-map-select-action>\n            </vl-map-features-layer>\n\n            <vl-map-features-layer data-vl-name="Measurements">\n                <vl-map-layer-style\n                    data-vl-color="rgba(6, 163, 247, 1)"\n                    data-vl-border-size="2"\n                    data-vl-border-color="rgba(6, 163, 247, 1)"\n                ></vl-map-layer-style>\n                <vl-map-measure-action class="measure-action action"></vl-map-measure-action>\n            </vl-map-features-layer>\n            <vl-map-legend data-vl-placement=${LEGEND_PLACEMENT.BOTTOM_RIGHT} right="140px"></vl-map-legend>\n        </vl-map>\n    `)',...M.parameters?.docs?.source}}};let C=["MapDefault","MapFullHeight","MapPlayground","MapPlaygroundLB72"]},"../../libs/components/src/next/title/index.ts":(e,t,a)=>{a.d(t,{I:()=>n.I});var n=a("../../libs/components/src/next/title/vl-title.component.ts")},"../../libs/components/src/next/title/vl-title.component.ts":(e,t,a)=>{a.d(t,{I:()=>c});var n=a("../../libs/common/utilities/src/index.ts");a("../../node_modules/@lit/reactive-element/reactive-element.js");var l=a("../../node_modules/lit-html/lit-html.js");a("../../node_modules/lit-element/lit-element.js");/**
+ * @license
+ * Copyright 2021 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */var o=(e,t,a)=>{for(var n of t)if(n[0]===e)return(0,n[1])();return null==a?void 0:a()},r=a("../../node_modules/lit/directives/class-map.js"),i=a("../../libs/components/src/next/title/vl-title.css.ts"),s=a("../../libs/components/src/next/title/vl-title.defaults.ts");class c extends n.jW{static get styles(){return[i.Z]}static get properties(){return{type:{type:String},underline:{type:Boolean},noSpaceBottom:{type:Boolean,attribute:"no-space-bottom"},alt:{type:Boolean}}}render(){let e={underline:this.underline,"no-space-bottom":this.noSpaceBottom,alt:this.alt};return(0,l.qy)`
+            ${o(this.type,[["h1",()=>(0,l.qy)` <h1 class=${(0,r.H)(e)} part="h1">
+                            <slot></slot>
+                        </h1>`],["h2",()=>(0,l.qy)` <h2 class=${(0,r.H)(e)} part="h2">
+                            <slot></slot>
+                        </h2>`],["h3",()=>(0,l.qy)` <h3 class=${(0,r.H)(e)} part="h3">
+                            <slot></slot>
+                        </h3>`],["h4",()=>(0,l.qy)` <h4 class=${(0,r.H)(e)} part="h4">
+                            <slot></slot>
+                        </h4>`],["h5",()=>(0,l.qy)` <h5 class=${(0,r.H)(e)} part="h5">
+                            <slot></slot>
+                        </h5>`],["h6",()=>(0,l.qy)` <h6 class=${(0,r.H)(e)} part="h6">
+                            <slot></slot>
+                        </h6>`]],()=>(0,l.qy)` <h1 class=${(0,r.H)(e)} part="h1">
+                    <slot></slot>
+                </h1>`)}
+        `}constructor(...e){super(...e),this.type=s.D.type,this.underline=s.D.underline,this.noSpaceBottom=s.D.noSpaceBottom,this.alt=s.D.alt}}c=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-title-next")],c)},"../../libs/components/src/next/title/vl-title.defaults.ts":(e,t,a)=>{a.d(t,{D:()=>n});let n={type:"h1",underline:!1,alt:!1,noSpaceBottom:!1}},"../../libs/map/src/actions/delete/delete-action.ts":(e,t,a)=>{a.d(t,{Q:()=>s});var n=a("../../node_modules/ol/style/Style.js"),l=a("../../node_modules/ol/style/Fill.js"),o=a("../../node_modules/ol/style/Stroke.js"),r=a("../../node_modules/ol/style/Circle.js"),i=a("../../libs/map/src/actions/select/box-select-action.ts");class s extends i.o{constructor(e,t,a={}){let i=new n.Ay({fill:new l.A({color:"rgba(241, 174, 174, 0.26)"}),stroke:new o.A({color:"#db3434",width:1}),image:new r.A({radius:4,stroke:new o.A({color:"#db3434",width:1}),fill:new l.A({color:"rgba(241, 174, 174, 0.26)"})})}),s=t=>{t&&(null==t.getId()||e.getSource().getFeatureById(t.getId())===t)&&e.getSource().removeFeature(t)},c=()=>{this.clearFeatures(),this.map.render()};super(e,e=>{t?t(e,e=>{s(e),c()},()=>{c()}):(e.forEach(e=>{s(e)}),c())},{style:a.style||i,filter:a.filter})}}},"../../libs/map/src/actions/draw/draw-line-action.ts":(e,t,a)=>{a.d(t,{p:()=>l});var n=a("../../libs/map/src/actions/draw/draw-action.ts");class l extends n.r{constructor(e,t,a={}){super(e,"LineString",t,a)}}},"../../libs/map/src/actions/draw/draw-polygon-action.ts":(e,t,a)=>{a.d(t,{H:()=>l});var n=a("../../libs/map/src/actions/draw/draw-action.ts");class l extends n.r{constructor(e,t,a={}){super(e,"Polygon",t,a)}}},"../../libs/map/src/actions/measure/measure-action.ts":(e,t,a)=>{a.d(t,{V:()=>r});var n=a("../../node_modules/ol/Overlay.js"),l=a("../../node_modules/ol/Observable.js"),o=a("../../libs/map/src/actions/draw/draw-action.ts");class r extends o.r{constructor(e,t){super(e,"LineString",()=>{(0,l.e)(this.measurePointermoveHandler)},{...t,maxPoints:2,geometryName:"measurement"}),this.featureCounter=0,this.measurementTooltips=[]}activate(){this.drawStartHandler=this.drawInteraction.on("drawstart",e=>{this._handleDrawStart(e)}),this.drawEndHandler=this.drawInteraction.on("drawend",()=>{this._setMeasurementTooltipsClosable(!0)}),this.removeFeatureHandler=this.layer.getSource().on("removefeature",e=>{this._handleRemoveFeature(e)}),super.activate()}_setMeasurementTooltipsClosable(e){this.measurementTooltips.forEach(t=>{let a="data-vl-closable",n=t.getElement();t&&n&&(e?n.setAttribute(a,e):n.removeAttribute(a))})}_setMeasurementTooltipsVisible(e){this.measurementTooltips.forEach(t=>{let a="hidden",n=t.getElement();t&&n&&(e?n.removeAttribute(a):n.setAttribute(a,!0))})}_showMeasurementTooltip(e,t,a){let n=e.getGeometry().getLength().toFixed(2);a.textContent=`${n} m`,t.setElement(a),t.setPosition(e.getGeometry().getLastCoordinate())}_handleDrawStart({feature:e}){let t=this.featureCounter;this.featureCounter+=1,this._setMeasurementTooltipsClosable(!1),e.setId(t);let a=document.createElement("vl-pill");a.isInMap=!0,a.addEventListener("close",t=>{this._handleRemoveMeasurement(t,e)},{once:!0});let l=new n.A({offset:[0,40],positioning:"bottom-center",stopEvent:!0,insertFirst:!0});l.set("featureId",t),this.map.addOverlay(l),this.measurementTooltips=[...this.measurementTooltips,l],this.measurePointermoveHandler=this.map.on("pointermove",()=>{this._showMeasurementTooltip(e,l,a)})}_removeMeasureFeature(e){let t=this.layer.getSource();e&&(null==e.getId()||t.getFeatureById(e.getId())===e)&&(t.removeFeature(e),this.map.render())}_removeMeasurementTooltip(e){let t=this.getTooltipFor(e);this.map.removeOverlay(t),this.measurementTooltips=this.measurementTooltips.filter(t=>this._getFeatureIdFor(t)!==e)}_handleRemoveMeasurement(e,t){e.stopPropagation(),this._removeMeasurementTooltip(t.getId()),this._removeMeasureFeature(t)}_handleRemoveFeature(e){this._removeMeasurementTooltip(e.feature.getId())}_cleanUp(e){(0,l.e)(this.measurePointermoveHandler),e&&this.measurementTooltips.forEach(e=>{let t=this._getFeatureIdFor(e);null==this.layer.getSource().getFeatureById(t)&&this._removeMeasurementTooltip(t)})}getTooltipFor(e){return this.measurementTooltips.find(t=>this._getFeatureIdFor(t)===e)}_getFeatureIdFor(e){return e.get("featureId")}handleLayerVisibilityChange(){this._setMeasurementTooltipsVisible(this.layer.getVisible())}deactivate(){this._setMeasurementTooltipsClosable(!0),this._cleanUp(!0),(0,l.e)(this.drawStartHandler),(0,l.e)(this.drawEndHandler),(0,l.e)(this.removeFeatureHandler),super.deactivate()}stop(){super.stop(),this._setMeasurementTooltipsClosable(!0),this._cleanUp(!0)}}},"../../libs/map/src/actions/modify/modify-action.ts":(e,t,a)=>{a.d(t,{P:()=>r});var n=a("../../node_modules/ol/interaction/Modify.js"),l=a("../../libs/map/src/actions/snap/snap-interaction.ts"),o=a("../../libs/map/src/actions/select/select-action.ts");class r extends o.D{constructor(e,t,a={}){if(super(e,null,{filter:a.filter}),this.options=a,this.modifyInteraction=new n.A({features:this.selectInteraction.getFeatures()}),this.addInteraction(this.modifyInteraction),a&&a.snapping){let t={...a.snapping};t.layer?this.addInteraction(new l.N(t.layer.getSource(),a.snapping)):this.addInteraction(new l.N(e.getSource(),a.snapping))}this.modifyInteraction.on("modifystart",e=>{let t=e.features.getArray()[0].getGeometry();this.currentGeometryBeingModified=t.clone()}),this.modifyInteraction.on("modifyend",e=>{e.features.forEach(e=>{t(e,e=>{e.setGeometry(this.currentGeometryBeingModified)})})})}activate(){this.options.snapping&&this.options.snapping.layer&&this.map.addLayer(this.options.snapping.layer),super.activate()}deactivate(){this.options.snapping&&this.options.snapping.layer&&this.map.removeLayer(this.options.snapping.layer),super.deactivate()}}},"../../libs/map/src/actions/select/box-select-action.ts":(e,t,a)=>{a.d(t,{o:()=>o});var n=a("../../libs/map/src/actions/select/select-action.ts"),l=a("../../node_modules/ol/interaction/DragBox.js");class o extends n.D{constructor(e,t,a){super(e,e=>{e&&t([e])},a),this.dragBoxInteraction=new l.A,this.addInteraction(this.dragBoxInteraction),this.dragBoxInteraction.on("boxdrag",()=>{let t=this.dragBoxInteraction.getGeometry().getExtent();this.hoverInteraction.getFeatures().clear(),e.getSource().forEachFeatureIntersectingExtent(t,t=>{this.filter(t,e)&&this.hoverInteraction.getFeatures().push(t)})}),this.dragBoxInteraction.on("boxend",()=>{this.hoverInteraction.getFeatures().getLength()>0&&t(this.hoverInteraction.getFeatures().getArray().slice(0))})}}},"../../libs/map/src/actions/select/select-action.ts":(e,t,a)=>{a.d(t,{D:()=>i});var n=a("../../node_modules/ol/Feature.js"),l=a("../../node_modules/ol/events/condition.js"),o=a("../../node_modules/ol/interaction/Select.js"),r=a("../../libs/map/src/actions/mapaction.ts");class i extends r.W{constructor(e,t,a){let n=a&&a.cluster,r=a&&a.filter?a.filter:()=>!0,i=a?a.style:null,s=a&&a.hoverStyle||i,c=Array.isArray(e)?e:[e],d=(e,t)=>(this.selectInteraction.getFeatures().clear(),this.filter(e,t)),p=(e,t)=>{let a=-1!==this.selectInteraction.getFeatures().getArray().indexOf(e);return this.filter(e,t)&&!a},m=new o.A({filter:p,condition:l.N1,style:s,layers:c}),v=new o.A({condition:l.Zm,style:i,layers:c}),u=new o.A({filter:d,condition:l.jM,style:i,layers:c,multi:!0});super([v,u,m]),this._selectHandler=e=>{this.markInteraction.getFeatures().clear(),this.selectInteraction.getFeatures().getLength()>0?1===this.selectInteraction.getFeatures().getLength()?this.selectedFeature=this.selectInteraction.getFeatures().getArray()[0]:this.selectedFeature=(e=>{let t=e.getArray().indexOf(this.selectedFeature)+1;return t>e.getLength()-1&&(t=0),e.getArray()[t]})(this.selectInteraction.getFeatures()):this.selectedFeature=null,this._onSelectHandler(e),this.map.render()},this._onSelectHandler=e=>{this.onSelect&&(this.selectedFeature?this.onSelect(this.selectedFeature,e,this.getLayer()):this.onSelect())},this.cluster=n,this.filter=r,this.layer=e,this.style=i,this.hoverStyle=s,this.hoverInteraction=m,this.markInteraction=v,this.selectInteraction=u,this.hoverInteraction.on("select",()=>{let e=this.map.getTargetElement();this.hoverInteraction.getFeatures().getLength()>0?e.style.cursor="pointer":e.style.cursor="",this.map.render()}),this.selectedFeature=null,this.getLayer=()=>e,this.onSelect=t,this.selectInteraction.on("select",this._selectHandler),this.selectInteractionFilter=d,this.hoverInteractionFilter=p}_fixClusterBehavior(){if(this.selectedFeature){let e=this.selectedFeature.get("features")||[this.selectedFeature];this.selectInteraction.getFeatures().clear(),this.markInteraction.getFeatures().clear(),e&&e.forEach(e=>{e.getId()&&this.markFeatureWithId(e.getId())})}}getClusterWithFeatureId(e,t){for(let a=0;a<e.length;a++){let n=e[a].get("features");if(n&&this.getFeatureById(n,t))return e[a]}}getFeatureById(e,t){for(let a=0;a<e.length;a++)if(e[a].getId()===t)return e[a]}clearFeatures(){this.selectInteraction.getFeatures().clear(),this.markInteraction.getFeatures().clear(),this.hoverInteraction.getFeatures().clear()}activate(){this.cluster&&this.map&&(this._fixClusterBehaviorListener=()=>this._fixClusterBehavior(),this.map.on("moveend",this._fixClusterBehaviorListener),this.selectInteraction.on("select",this._fixClusterBehaviorListener)),super.activate()}deactivate(){this._fixClusterBehaviorListener&&(this.map.un("moveend",this._fixClusterBehaviorListener),this.selectInteraction.un("select",this._fixClusterBehaviorListener)),this.clearFeatures(),super.deactivate()}selectFeature(e){this.selectInteraction.getFeatures().push(e),this.selectInteraction.dispatchEvent({type:"select",feature:e})}getSelectedFeatures(){return this.selectInteraction.getFeatures()}deselect(){this.selectedFeature=null}markFeatureWithId(e,t){let a=(t=t||this.layer).getSource().getFeatureById(e)||this.getClusterWithFeatureId(t.getSource().getFeatures(),e);a&&a instanceof n.A&&-1===this.markInteraction.getFeatures().getArray().indexOf(a)&&this.markInteraction.getFeatures().push(a)}isMarked(e){let t=!1;return this.markInteraction.getFeatures().forEach(a=>{a===e&&(t=!0)}),t}demarkAllFeatures(){this.markInteraction.getFeatures().clear()}}},"../../libs/map/src/components/action/draw-action/draw-line-action/vl-map-draw-line-action.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/map/src/actions/draw/draw-line-action.ts"),o=a("../../libs/map/src/components/action/draw-action/vl-map-draw-action.ts");class r extends o.H{_createAction(e){return new l.p(e,this._callback,this.__drawOptions)}}r=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-draw-line-action")],r)},"../../libs/map/src/components/action/draw-action/draw-point-action/vl-map-draw-point-action.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/map/src/actions/draw/draw-action.ts"),o=a("../../libs/map/src/components/action/draw-action/vl-map-draw-action.ts");class r extends o.H{_createAction(e){return new l.r(e,"Point",this._callback,this.__drawOptions)}}r=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-draw-point-action")],r)},"../../libs/map/src/components/action/draw-action/draw-polygon-action/vl-map-draw-polygon-action.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/map/src/actions/draw/draw-polygon-action.ts"),o=a("../../libs/map/src/components/action/draw-action/vl-map-draw-action.ts");class r extends o.H{_createAction(e){return new l.H(e,this._callback,this.__drawOptions)}}r=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-draw-polygon-action")],r)},"../../libs/map/src/components/action/draw-action/measure-action/vl-map-measure-action.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/map/src/actions/measure/measure-action.ts"),o=a("../../libs/map/src/vl-map.model.ts"),r=a("../../libs/map/src/components/action/draw-action/vl-map-draw-action.ts");class i extends r.H{constructor(){super(),this.identifier=o.cS.MEASURE}_createAction(e){return new l.V(e,this.__drawOptions)}}i=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-measure-action")],i)},"../../libs/map/src/components/action/layer-action/delete-action/vl-map-delete-action.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/map/src/actions/delete/delete-action.ts"),o=a("../../libs/map/src/components/layer-style/vl-map-layer-style.ts"),r=a("../../libs/map/src/components/action/layer-action/vl-map-layer-action.ts");class i extends r.c{get style(){return this._style}set style(e){e instanceof o.t?this._style=e.style:this._style=e,this._processAction()}onDelete(e){this.__callback=e}appliesTo(e,t){return!0}get _callback(){return(e,t,a)=>{this.__callback?this.__callback(e,t,a):e.forEach(e=>t(e))}}_createAction(e){let t={style:this._style,filter:this.appliesTo.bind(this)};return new l.Q(e,this._callback,t)}}i=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-delete-action")],i)},"../../libs/map/src/components/action/layer-action/modify-action/vl-map-modify-action.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/map/src/actions/layer/composite-vector-layer.ts"),o=a("../../libs/map/src/actions/modify/modify-action.ts"),r=a("../../libs/map/src/components/layer/vector-layer/vl-map-vector-layer.ts"),i=a("../../libs/map/src/components/action/layer-action/vl-map-layer-action.ts");class s extends i.c{static get _observedAttributes(){return["snapping","snapping-pixel-tolerance"]}disconnectedCallback(){this.__removeSnappingLayerStyleChangedEventListener()}onModify(e){this.__callback=e}appliesTo(e,t){return!0}_createAction(e){let t={snapping:this.__snappingOptions,filter:this.appliesTo.bind(this)};return new o.P(e,this._callback,t)}_snappingChangedCallback(){this._processAction()}_snappingPixelToleranceChangedCallback(){this._processAction()}get __snappingOptions(){return void 0===this.dataset.vlSnapping||!(this.__snappingLayers.length>0)||{layer:this.__createSnappingLayer(),pixelTolerance:this.dataset.vlSnappingPixelTolerance||10,node:!1,vertex:!1}}__createSnappingLayer(){return this.__snappingLayer=new l.E(this.__snappingLayers.map(e=>e._layer),{}),this.__addSnappingLayerStyleChangedEventListener(),this.__snappingLayer}__addSnappingLayerStyleChangedEventListener(){if(this.__snappingLayers&&this.__snappingLayers.length>0){let e=this.__snappingLayers[0];this.__snappingLayer.setStyle(e.style),this.__onSnappingLayerStyleChanged=e=>this.__snappingLayer.setStyle(e.target.style),e.addEventListener(r.P.EVENTS.styleChanged,this.__onSnappingLayerStyleChanged)}}__removeSnappingLayerStyleChangedEventListener(){this.__snappingLayers&&this.__snappingLayers.length>0&&this.__snappingLayers[0].removeEventListener(r.P.EVENTS.styleChanged,this.__onSnappingLayerStyleChanged)}get __snappingLayers(){return Array.from(this.querySelectorAll("vl-map-wfs-layer"))}}s=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-modify-action")],s)},"../../libs/map/src/components/action/layer-action/select-action/vl-map-select-action.ts":(e,t,a)=>{a.d(t,{J:()=>i});var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/map/src/actions/select/select-action.ts"),o=a("../../libs/map/src/components/layer-style/vl-map-layer-style.ts"),r=a("../../libs/map/src/components/action/layer-action/vl-map-layer-action.ts");class i extends r.c{get style(){return this._style}set style(e){e instanceof o.t?this._style=e.style:this._style=e,this._processAction()}get _cluster(){return this.getAttribute("cluster")}mark(e,t){this._action&&e&&this._action.markFeatureWithId(e,t||this.layer)}removeMarks(){this._action&&this._action.demarkAllFeatures()}select(e){this.action&&e&&this._action.selectFeature(e)}onSelect(e){this.__callback=e}reset(){this.action&&this._action.clearFeatures()}appliesTo(e,t){return!0}_createAction(e){let t={style:this.style,cluster:void 0!==this._cluster,filter:this.appliesTo.bind(this)};return new l.D(e,this._callback,t)}}i=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-select-action")],i)},"../../libs/map/src/components/baselayer/vl-map-base-layer-grb-ortho/vl-map-base-layer-grb-ortho.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/map/src/components/baselayer/vl-map-base-layer.ts");class o extends l.j{constructor(){super(),this.url="https://geo.api.vlaanderen.be/OMWRGBMRVL/wmts",this.layer="omwrgbmrvl",this.title="GRB ortho laag"}}o=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-baselayer-grb-ortho")],o)},"../../libs/map/src/components/baselayer/vl-map-base-layer-grb/vl-map-base-layer-grb.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/map/src/components/baselayer/vl-map-base-layer.ts");class o extends l.j{constructor(){super(),this.url="https://geo.api.vlaanderen.be/GRB/wmts",this.layer="grb_bsk",this.title="GRB basis laag"}}o=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-baselayer-grb")],o)},"../../libs/map/src/components/controls/measure-control/vl-map-measure-control.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/components/src/next/button/index.ts"),o=a("../../node_modules/ol/Observable.js"),r=a("../../libs/map/src/vl-map.model.ts"),i=a("../../libs/map/src/components/controls/vl-map-control.mixin.ts");class s extends(0,i.i)(n.jW){static{(0,n.gy)([l.Y])}constructor(){super(),this.controlElement=null,this.controlElement=document.createElement("vl-button-next"),this.controlElement.setAttribute("tertiary",""),this.controlElement.setAttribute("toggle",""),this.controlElement.innerText="Meten",this.identifier=r.cS.MEASURE,this.type=r.$c.ACTION}connectedCallback(){super.connectedCallback(),this.clickListener=this.controlElement.addEventListener("click",()=>this.handleMeasureControlClick())}getAction(){return this.map.getActionWithIdentifier(this.identifier)}handleMeasureControlClick(){let e=this.getAction();e&&(this.controlElement.on?(e.element.activate(),this.controlElement.removeAttribute("tertiary")):(e.element.deactivate(),this.controlElement.setAttribute("tertiary","")))}setActive(e){e?(this.controlElement.on=!0,this.controlElement.removeAttribute("tertiary")):(this.controlElement.on=!1,this.controlElement.setAttribute("tertiary",""))}setDisabled(e){this.controlElement.disabled=e}disconnectedCallback(){super.disconnectedCallback(),(0,o.e)(this.clickListener)}}s=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-measure-control")],s)},"../../libs/map/src/components/controls/vl-map-action-controls.ts":(e,t,a)=>{var n=a("../../node_modules/lit/index.js"),l=a("../../node_modules/lit/decorators.js");let o=(0,n.AH)`
+    div {
+        position: absolute;
+        right: 0px;
+        z-index: 1;
+        display: flex;
+        column-gap: 10px;
+        padding: 10px;
+    }
+`;var r=a("../../libs/common/utilities/src/index.ts");class i extends r.jW{static get styles(){return[o]}connectedCallback(){super.connectedCallback(),this.actionControls.forEach(e=>{e.addEventListener("change-control",t=>{let a=e.getAttribute("data-vl-action-id");this.handleActionControlChange(a,t)})})}render(){return(0,n.qy)`
+            <div>
+                <slot></slot>
+            </div>
+        `}get actionControls(){return this.querySelectorAll("vl-map-action-control")}handleActionControlChange(e,t){t.detail?.isActive&&[...this.actionControls].filter(t=>t.getAttribute("data-vl-action-id")!==e).filter(e=>e.active).forEach(e=>e.deactivate())}}i=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,l.EM)("vl-map-action-controls")],i)},"../../libs/map/src/components/controls/vl-map-control.mixin.ts":(e,t,a)=>{a.d(t,{i:()=>l});var n=a("../../node_modules/ol/control/Control.js");let l=e=>{class t extends e{connectedCallback(){super.connectedCallback(),this._mapElement=this.closest("vl-map"),this.map=this._mapElement.map,this.controlElement.isInMap=!0,this.control=new n.A({element:this.controlElement,target:this}),this.control.set("element",this),this.map.addControl(this.control)}disconnectedCallback(){super.disconnectedCallback(),this.map.removeControl(this.control)}createRenderRoot(){return this}}return t}},"../../libs/map/src/components/layer-switcher/vl-map-layer-switcher.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/components/src/index.ts"),o=a("../../libs/elements/src/index.ts"),r=a("../../libs/form/src/next/form-label/vl-form-label.css.ts"),i=a("../../node_modules/lit/index.js"),s=a("../../node_modules/lit/decorators.js");let c=(0,i.AH)`
+    :host {
+        display: block;
+    }
+
+    :host label {
+        display: block;
+    }
+
+    :host [data-vl-layer] {
+        display: block;
+    }
+`;class d extends n.jW{static{(0,n.gy)([l.v7])}static get styles(){return[o.hF,c,r.B]}static get properties(){return{componentTitle:{type:String,attribute:"data-vl-title",reflect:!0},layers:{type:Array,attribute:"layers"},vlMapLayers:{attribute:!1}}}constructor(){super(),this.componentTitle="Kaartlagen",this.layers=null,this.vlMapLayers=[],this.mapElement=null,this.layerObserver=null,this.computeDisabledAttributes=()=>{let e=this.mapElement?.resolution;this.vlMapLayers.forEach(t=>{let a=this.shadowRoot?.querySelector(`vl-checkbox[data-vl-layer="${t.title}"]`);t.isVisibleAtResolution(e)?a?.removeAttribute("disabled"):a?.setAttribute("disabled","")})}}async connectedCallback(){super.connectedCallback(),this.mapElement=this.closest("vl-map"),await this.layersReady(),this.vlMapLayers=this.getVlMapLayers(),this.mapElement?.on("moveend",this.computeDisabledAttributes),this.layers||this.observeMapLayers()}async willUpdate(e){e.has("layers")&&(await this.layersReady(),this.vlMapLayers=this.getVlMapLayers())}updated(){this.computeDisabledAttributes()}disconnectedCallback(){super.disconnectedCallback(),this.layerObserver?.disconnect(),this.mapElement?.un("moveend",this.computeDisabledAttributes)}render(){return(0,i.qy)`
+            <div>
+                <label class="vl-form__label">${this.componentTitle}</label>
+                ${this.vlMapLayers.map(e=>(0,i.qy)`
+                        <vl-checkbox
+                            data-vl-label=${e.title}
+                            data-vl-layer=${e.title}
+                            checked=${e.visible}
+                            @change=${()=>e.visible=!e.visible}
+                        ></vl-checkbox>
+                    `)}
+            </div>
+        `}async layersReady(){return this.mapElement?Promise.all(this.mapElement?.nonBaseLayers.map(e=>n.t7(()=>e.ready))):new Promise((e,t)=>t())}getVlMapLayers(){return this.layers&&Array.isArray(this.layers)?this.mapElement?.nonBaseLayers.filter(e=>this.layers?.includes(e.name))||[]:this.mapElement?.nonBaseLayers||[]}observeMapLayers(){this.layerObserver=new MutationObserver(e=>{e.forEach(e=>{e.addedNodes.forEach(e=>{e instanceof HTMLElement&&e.hasAttribute("data-vl-is-layer")&&(this.vlMapLayers=[...this.vlMapLayers,e])}),e.removedNodes.forEach(e=>{e instanceof HTMLElement&&e.hasAttribute("data-vl-is-layer")&&(this.vlMapLayers=this.vlMapLayers.filter(t=>e!==t))})})}),this.layerObserver.observe(this.mapElement,{subtree:!0,childList:!0})}}d=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,s.EM)("vl-map-layer-switcher")],d)},"../../libs/map/src/components/overview-map/vl-map-overview-map.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts");class l extends(0,n.H3)(HTMLElement){connectedCallback(){super.connectedCallback(),this._configureMap()}get _map(){if(this.parentNode)return this.parentNode.map}_configureMap(){(async()=>{for(;!(this._map&&this._map.overviewMapControl);)await new Promise(e=>setTimeout(e,100));this._map.addControl(this._map.overviewMapControl)})()}}l=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-overview-map")],l)},"../../libs/map/src/components/side-sheet/vl-map-side-sheet.ts":(e,t,a)=>{var n=a("../../libs/common/utilities/src/index.ts"),l=a("../../libs/components/src/index.ts");class o extends l.VH{constructor(){super(`
+      :host {
+        width: 3.5rem;
+        transition: width 0.1s;
+      }
+
+      :host([data-vl-open]) {
+        width: var(--vl-side-sheet-width,calc(100%/3));
+      }
+
+      .vl-side-sheet__toggle {
+        margin: 10px;
+      }
+
+      :host([data-vl-open]) .vl-side-sheet__toggle {
+        margin-left: 0px;
+      }
+
+      ::slotted(*) {
+        margin-bottom: 20px;
+      }
+    `)}connectedCallback(){super.connectedCallback(),this.setAttribute("data-vl-absolute",""),this.hasAttribute("data-vl-right")||this.setAttribute("data-vl-left",""),this._openChangedCallback()}_rightChangedCallback(e,t){void 0!=t?this.removeAttribute("data-vl-left"):this.setAttribute("data-vl-left","")}}o=function(e,t,a,n){var l,o=arguments.length,r=o<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,a):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)r=Reflect.decorate(e,t,a,n);else for(var i=e.length-1;i>=0;i--)(l=e[i])&&(r=(o<3?l(r):o>3?l(t,a,r):l(t,a))||r);return o>3&&r&&Object.defineProperty(t,a,r),r}([(0,n.M1)("vl-map-side-sheet")],o)}}]);
