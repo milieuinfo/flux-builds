@@ -1,0 +1,248 @@
+import{J as r,K as a,G as E,bF as o,H as L,u as b,j as n,C as s,bd as k,s as B,x as N,r as O,bv as M}from"./iframe-CflcmDUD.js";import{o as V}from"./unsafe-html-Bzfy4gdb.js";import"./preload-helper-D9Z9MdNV.js";const T={...L,...o,defaultSlot:""},I={...E,bold:{name:"bold",description:"Toont de tekst in het vet.",table:{type:{summary:a.BOOLEAN},category:r.ATTRIBUTES,defaultValue:{summary:String(o.bold)}}},success:{name:"success",description:"Toont de tekst in de success-kleur.",table:{type:{summary:a.BOOLEAN},category:r.ATTRIBUTES,defaultValue:{summary:String(o.success)}}},warning:{name:"warning",description:"Toont de tekst in de warning-kleur.",table:{type:{summary:a.BOOLEAN},category:r.ATTRIBUTES,defaultValue:{summary:String(o.warning)}}},error:{name:"error",description:"Toont de tekst in de error-kleur.",table:{type:{summary:a.BOOLEAN},category:r.ATTRIBUTES,defaultValue:{summary:String(o.error)}}},italic:{name:"italic",description:"Toont de tekst cursief.",table:{type:{summary:a.BOOLEAN},category:r.ATTRIBUTES,defaultValue:{summary:String(o.italic)}}},underline:{name:"underline",description:"Toont de tekst onderstreept.",table:{type:{summary:a.BOOLEAN},category:r.ATTRIBUTES,defaultValue:{summary:String(o.underline)}}},annotation:{name:"annotation",description:"Toont de tekst minder opvallend - hij krijgt een grijze kleur.",table:{type:{summary:a.BOOLEAN},category:r.ATTRIBUTES,defaultValue:{summary:String(o.annotation)}}},small:{name:"small",description:"Toont de tekst kleiner.",table:{type:{summary:a.BOOLEAN},category:r.ATTRIBUTES,defaultValue:{summary:String(o.small)}}},defaultSlot:{name:"[default]",description:"De inhoud van de tekst.",table:{type:{summary:a.HTML},category:r.SLOTS,defaultValue:{summary:T.defaultSlot}}}};function S(t){const e={code:"code",h1:"h1",h2:"h2",h3:"h3",p:"p",pre:"pre",...b(),...t.components},{FluxMetaData:f}=e;return f||H("FluxMetaData"),n.jsxs(n.Fragment,{children:[n.jsx(e.h1,{id:"text",children:"Text"}),`
+`,n.jsx(f,{id:"components-atom-text"}),`
+`,n.jsxs(e.p,{children:["Gebruik de ",n.jsx(e.code,{children:"text"})," component om een tekst af te beelden op andere wijze.",n.jsx("br",{})]}),`
+`,n.jsx(e.h2,{id:"voorbeeld",children:"Voorbeeld"}),`
+`,n.jsx(e.pre,{children:n.jsx(e.code,{className:"language-js",children:`import { VlTextComponent } from '@domg-wc/components/atom';
+`})}),`
+`,n.jsx(e.pre,{children:n.jsx(e.code,{className:"language-html",children:`<vl-text></vl-text>
+`})}),`
+`,n.jsx(s,{of:i}),`
+`,n.jsx(e.h2,{id:"configuratie",children:"Configuratie"}),`
+`,n.jsx(k,{of:i}),`
+`,n.jsx(e.h2,{id:"varianten",children:"Varianten"}),`
+`,n.jsx(e.h3,{id:"bold",children:"Bold"}),`
+`,n.jsx(s,{of:c}),`
+`,n.jsx(e.h3,{id:"italic",children:"Italic"}),`
+`,n.jsx(s,{of:d}),`
+`,n.jsx(e.h3,{id:"underline",children:"Underline"}),`
+`,n.jsx(s,{of:u}),`
+`,n.jsx(e.h3,{id:"success",children:"Success"}),`
+`,n.jsx(s,{of:m}),`
+`,n.jsx(e.h3,{id:"warning",children:"Warning"}),`
+`,n.jsx(s,{of:x}),`
+`,n.jsx(e.h3,{id:"error",children:"Error"}),`
+`,n.jsx(s,{of:g}),`
+`,n.jsx(e.h3,{id:"annotation",children:"Annotation"}),`
+`,n.jsx(s,{of:p}),`
+`,n.jsx(e.h3,{id:"small",children:"Small"}),`
+`,n.jsx(s,{of:$})]})}function C(t={}){const{wrapper:e}={...b(),...t.components};return e?n.jsx(e,{...t,children:n.jsx(S,{...t})}):S(t)}function H(t,e){throw new Error("Expected component `"+t+"` to be defined: you likely forgot to import, pass, or provide it.")}O([M]);const _={id:"components-atom-text",title:"Components - Atom/text",tags:["autodocs"],args:T,argTypes:I,parameters:{docs:{page:C}}},l=B(T,({bold:t,success:e,warning:f,error:y,italic:h,underline:w,annotation:j,small:v,defaultSlot:A})=>N`
+        <vl-text
+            ?bold=${t}
+            ?success=${e}
+            ?warning=${f}
+            ?error=${y}
+            ?italic=${h}
+            ?underline=${w}
+            ?annotation=${j}
+            ?small=${v}
+        >
+            ${V(A)}
+        </vl-text>
+    `),i=l.bind({});i.storyName="vl-text - default";i.args={defaultSlot:"tekst - default"};const c=l.bind({});c.storyName="vl-text - bold";c.args={defaultSlot:"text - bold",bold:!0};const d=l.bind({});d.storyName="vl-text - italic";d.args={defaultSlot:"text - italic",italic:!0};const u=l.bind({});u.storyName="vl-text - underline";u.args={defaultSlot:"text - underline",underline:!0};const m=l.bind({});m.storyName="vl-text - success";m.args={defaultSlot:"text - success",success:!0};const x=l.bind({});x.storyName="vl-text - warning";x.args={defaultSlot:"text - warning",warning:!0};const g=l.bind({});g.storyName="vl-text - error";g.args={defaultSlot:"text - error",error:!0};const p=l.bind({});p.storyName="vl-text - annotation";p.args={defaultSlot:"text - annotation",annotation:!0};const $=l.bind({});$.storyName="vl-text - small";$.args={defaultSlot:"text - small",small:!0};i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`story(textArgs, ({
+  bold,
+  success,
+  warning,
+  error,
+  italic,
+  underline,
+  annotation,
+  small,
+  defaultSlot
+}) => html\`
+        <vl-text
+            ?bold=\${bold}
+            ?success=\${success}
+            ?warning=\${warning}
+            ?error=\${error}
+            ?italic=\${italic}
+            ?underline=\${underline}
+            ?annotation=\${annotation}
+            ?small=\${small}
+        >
+            \${unsafeHTML(defaultSlot)}
+        </vl-text>
+    \`)`,...i.parameters?.docs?.source}}};c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`story(textArgs, ({
+  bold,
+  success,
+  warning,
+  error,
+  italic,
+  underline,
+  annotation,
+  small,
+  defaultSlot
+}) => html\`
+        <vl-text
+            ?bold=\${bold}
+            ?success=\${success}
+            ?warning=\${warning}
+            ?error=\${error}
+            ?italic=\${italic}
+            ?underline=\${underline}
+            ?annotation=\${annotation}
+            ?small=\${small}
+        >
+            \${unsafeHTML(defaultSlot)}
+        </vl-text>
+    \`)`,...c.parameters?.docs?.source}}};d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`story(textArgs, ({
+  bold,
+  success,
+  warning,
+  error,
+  italic,
+  underline,
+  annotation,
+  small,
+  defaultSlot
+}) => html\`
+        <vl-text
+            ?bold=\${bold}
+            ?success=\${success}
+            ?warning=\${warning}
+            ?error=\${error}
+            ?italic=\${italic}
+            ?underline=\${underline}
+            ?annotation=\${annotation}
+            ?small=\${small}
+        >
+            \${unsafeHTML(defaultSlot)}
+        </vl-text>
+    \`)`,...d.parameters?.docs?.source}}};u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`story(textArgs, ({
+  bold,
+  success,
+  warning,
+  error,
+  italic,
+  underline,
+  annotation,
+  small,
+  defaultSlot
+}) => html\`
+        <vl-text
+            ?bold=\${bold}
+            ?success=\${success}
+            ?warning=\${warning}
+            ?error=\${error}
+            ?italic=\${italic}
+            ?underline=\${underline}
+            ?annotation=\${annotation}
+            ?small=\${small}
+        >
+            \${unsafeHTML(defaultSlot)}
+        </vl-text>
+    \`)`,...u.parameters?.docs?.source}}};m.parameters={...m.parameters,docs:{...m.parameters?.docs,source:{originalSource:`story(textArgs, ({
+  bold,
+  success,
+  warning,
+  error,
+  italic,
+  underline,
+  annotation,
+  small,
+  defaultSlot
+}) => html\`
+        <vl-text
+            ?bold=\${bold}
+            ?success=\${success}
+            ?warning=\${warning}
+            ?error=\${error}
+            ?italic=\${italic}
+            ?underline=\${underline}
+            ?annotation=\${annotation}
+            ?small=\${small}
+        >
+            \${unsafeHTML(defaultSlot)}
+        </vl-text>
+    \`)`,...m.parameters?.docs?.source}}};x.parameters={...x.parameters,docs:{...x.parameters?.docs,source:{originalSource:`story(textArgs, ({
+  bold,
+  success,
+  warning,
+  error,
+  italic,
+  underline,
+  annotation,
+  small,
+  defaultSlot
+}) => html\`
+        <vl-text
+            ?bold=\${bold}
+            ?success=\${success}
+            ?warning=\${warning}
+            ?error=\${error}
+            ?italic=\${italic}
+            ?underline=\${underline}
+            ?annotation=\${annotation}
+            ?small=\${small}
+        >
+            \${unsafeHTML(defaultSlot)}
+        </vl-text>
+    \`)`,...x.parameters?.docs?.source}}};g.parameters={...g.parameters,docs:{...g.parameters?.docs,source:{originalSource:`story(textArgs, ({
+  bold,
+  success,
+  warning,
+  error,
+  italic,
+  underline,
+  annotation,
+  small,
+  defaultSlot
+}) => html\`
+        <vl-text
+            ?bold=\${bold}
+            ?success=\${success}
+            ?warning=\${warning}
+            ?error=\${error}
+            ?italic=\${italic}
+            ?underline=\${underline}
+            ?annotation=\${annotation}
+            ?small=\${small}
+        >
+            \${unsafeHTML(defaultSlot)}
+        </vl-text>
+    \`)`,...g.parameters?.docs?.source}}};p.parameters={...p.parameters,docs:{...p.parameters?.docs,source:{originalSource:`story(textArgs, ({
+  bold,
+  success,
+  warning,
+  error,
+  italic,
+  underline,
+  annotation,
+  small,
+  defaultSlot
+}) => html\`
+        <vl-text
+            ?bold=\${bold}
+            ?success=\${success}
+            ?warning=\${warning}
+            ?error=\${error}
+            ?italic=\${italic}
+            ?underline=\${underline}
+            ?annotation=\${annotation}
+            ?small=\${small}
+        >
+            \${unsafeHTML(defaultSlot)}
+        </vl-text>
+    \`)`,...p.parameters?.docs?.source}}};$.parameters={...$.parameters,docs:{...$.parameters?.docs,source:{originalSource:`story(textArgs, ({
+  bold,
+  success,
+  warning,
+  error,
+  italic,
+  underline,
+  annotation,
+  small,
+  defaultSlot
+}) => html\`
+        <vl-text
+            ?bold=\${bold}
+            ?success=\${success}
+            ?warning=\${warning}
+            ?error=\${error}
+            ?italic=\${italic}
+            ?underline=\${underline}
+            ?annotation=\${annotation}
+            ?small=\${small}
+        >
+            \${unsafeHTML(defaultSlot)}
+        </vl-text>
+    \`)`,...$.parameters?.docs?.source}}};const F=["TextDefault","TextBold","TextItalic","TextUnderline","TextSuccess","TextWarning","TextError","TextAnnotation","TextSmall"];export{p as TextAnnotation,c as TextBold,i as TextDefault,g as TextError,d as TextItalic,$ as TextSmall,m as TextSuccess,u as TextUnderline,x as TextWarning,F as __namedExportsOrder,_ as default};

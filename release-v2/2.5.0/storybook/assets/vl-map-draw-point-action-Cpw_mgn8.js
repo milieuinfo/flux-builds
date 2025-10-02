@@ -1,0 +1,1 @@
+import{m as c}from"./iframe-CflcmDUD.js";import{V as l,a as p}from"./vl-map-draw-action-2_7SBsl1.js";var w=Object.getOwnPropertyDescriptor,_=(t,e,s,n)=>{for(var r=n>1?void 0:n?w(e,s):e,a=t.length-1,o;a>=0;a--)(o=t[a])&&(r=o(r)||r);return r};let i=class extends l{_createAction(t){return new p(t,"Point",this._callback,this.__drawOptions)}};i=_([c("vl-map-draw-point-action")],i);

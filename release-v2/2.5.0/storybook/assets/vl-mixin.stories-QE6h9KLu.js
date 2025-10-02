@@ -1,0 +1,62 @@
+import{u as r,j as e,M as u,C as a,be as x,x as d,bf as m,b6 as c}from"./iframe-CflcmDUD.js";import"./preload-helper-D9Z9MdNV.js";function l(i){const n={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",li:"li",p:"p",ul:"ul",...r(),...i.components},{FluxMetaData:o}=n;return o||v("FluxMetaData"),e.jsxs(e.Fragment,{children:[e.jsx(u,{title:"Styles/Base (intern)/mixin"}),`
+`,e.jsx(n.h1,{id:"mixin",children:"Mixin"}),`
+`,e.jsx(o,{id:"styles-base-mixin"}),`
+`,e.jsx("br",{}),`
+`,e.jsx(n.h2,{id:"inhoudstafel",children:"Inhoudstafel"}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsx(n.li,{children:e.jsx(n.a,{href:"#doel",children:"Doel"})}),`
+`,e.jsx(n.li,{children:e.jsx(n.a,{href:"#voorbeelden",children:"Voorbeelden"})}),`
+`]}),`
+`,e.jsx(n.h2,{id:"doel",children:"Doel"}),`
+`,e.jsx(n.p,{children:`Om in CSS duplicatie tegen te gaan voorzien we mixins. Het concept is gelijk aan SCSS mixins: geparametriseerde
+methodes die styling encapsuleren. Al onze code wordt in TypeScript geschreven, daardoor zijn de mixins geschreven als
+'css-in-ts'.`}),`
+`,e.jsx(n.h2,{id:"voorbeelden",children:"Voorbeelden"}),`
+`,e.jsx(n.h3,{id:"vlwaveanimationmixin",children:"vlWaveAnimationMixin"}),`
+`,e.jsxs(n.p,{children:["De ",e.jsx(n.code,{children:"vlWaveAnimationMixin"}),` wordt hier ge-wrapped in een custom style-class. Dit is de animatie die gebruikt wordt in
+`,e.jsx(n.code,{children:"<vl-button>"}),"."]}),`
+`,e.jsx(a,{of:t}),`
+`,e.jsx(n.h3,{id:"vlfocusoutlinemixin",children:"vlFocusOutlineMixin"}),`
+`,e.jsxs(n.p,{children:["De ",e.jsx(n.code,{children:"vlFocusOutlineMixin"}),` wordt hier ge-wrapped in een custom style-class. Dit zorgt voor de specifieke stijl van een
+item dat de focus krijgt. Wordt gebruikt in `,e.jsx(n.code,{children:"<vl-link>"}),", ",e.jsx(n.code,{children:"<vl-button>"})," en ",e.jsx(n.code,{children:"vl-link-button."})]}),`
+`,e.jsx(a,{of:s})]})}function h(i={}){const{wrapper:n}={...r(),...i.components};return n?e.jsx(n,{...i,children:e.jsx(l,{...i})}):l(i)}function v(i,n){throw new Error("Expected component `"+i+"` to be defined: you likely forgot to import, pass, or provide it.")}const j={id:"styles-base-mixin",title:"Styles/Base (intern)/mixin",tags:["autodocs"],parameters:{docs:{page:h}}},t=({})=>d`
+    <style>
+        .sb-wave-animation-blue {
+            animation: sb-wave-animation-blue infinite 1s linear;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+        }
+
+        ${x("sb-wave-animation-blue","lightblue")}
+    </style>
+    <div class="sb-wave-animation-blue"></div>
+`;t.storyName="vl-mixin - vlWaveAnimationMixin";t.parameters=c;const s=({})=>d` <style>
+        .sb-focus-outline {
+            ${m()}
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+    <div class="sb-focus-outline">outline bij focus</div>`;s.storyName="vl-mixin - vlFocusOutlineMixin";s.parameters=c;t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:`({}) => html\`
+    <style>
+        .sb-wave-animation-blue {
+            animation: sb-wave-animation-blue infinite 1s linear;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+        }
+
+        \${vlWaveAnimationMixin('sb-wave-animation-blue', 'lightblue')}
+    </style>
+    <div class="sb-wave-animation-blue"></div>
+\``,...t.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`({}) => html\` <style>
+        .sb-focus-outline {
+            \${vlFocusOutlineMixin()}
+            width: 200px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+    <div class="sb-focus-outline">outline bij focus</div>\``,...s.parameters?.docs?.source}}};const f=["WaveAnimationMixinDefault","FocusOutlineMixinDefault"];export{s as FocusOutlineMixinDefault,t as WaveAnimationMixinDefault,f as __namedExportsOrder,j as default};
