@@ -1,0 +1,1 @@
+import{m as e,a as t}from"./vl-map-action.stories-arg-CmBzWbMa.js";import{K as a,L as s}from"./iframe-Ds54rb_7.js";const r={...t,cluster:!1},m={...e,cluster:{name:"cluster",description:"Geeft aan de de features geclustered worden.",control:!1,table:{type:{summary:s.BOOLEAN},category:a.ATTRIBUTES,defaultValue:{summary:String(r.cluster)}}}};export{r as a,m};
