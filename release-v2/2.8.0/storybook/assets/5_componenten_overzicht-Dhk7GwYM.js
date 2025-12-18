@@ -1,0 +1,3 @@
+import{u as i,j as e,M as s}from"./iframe-BQb9mjVp.js";import"./preload-helper-D9Z9MdNV.js";function r(n){const t={h1:"h1",...i(),...n.components},{FluxComponentOverview:o}=t;return o||c("FluxComponentOverview"),e.jsxs(e.Fragment,{children:[e.jsx(s,{title:"Planning/Componenten Overzicht"}),`
+`,e.jsx(t.h1,{id:"componenten-overzicht",children:"Componenten Overzicht"}),`
+`,e.jsx(o,{})]})}function x(n={}){const{wrapper:t}={...i(),...n.components};return t?e.jsx(t,{...n,children:e.jsx(r,{...n})}):r(n)}function c(n,t){throw new Error("Expected component `"+n+"` to be defined: you likely forgot to import, pass, or provide it.")}export{x as default};
