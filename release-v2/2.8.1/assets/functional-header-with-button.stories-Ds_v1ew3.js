@@ -1,0 +1,4 @@
+import{s as e,v as o,x as r,r as n,d as a,f as s,g as l,h as u}from"./iframe-C7eocPW2.js";import{o as i}from"./unsafe-html-DGst3qpG.js";import{a as m}from"./functional-header.helpers-D6CId0Un.js";n([a,s,l,u]);const c={title:"Ontwerp/Functional Header/Voorbeeld Met Button"},t=e({},()=>r` <style>
+            ${o}
+        </style>
+        ${i(m)}`);t.storyName="vl-functional-header - met button";t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:"story({}, () => html` <style>\n            ${vlGroupStyles}\n        </style>\n        ${unsafeHTML(functionalHeaderWithButtonHtml)}`)",...t.parameters?.docs?.source}}};const d=["functionalHeaderWithButton"],H=Object.freeze(Object.defineProperty({__proto__:null,__namedExportsOrder:d,default:c,functionalHeaderWithButton:t},Symbol.toStringTag,{value:"Module"}));export{t as a,H as f};
