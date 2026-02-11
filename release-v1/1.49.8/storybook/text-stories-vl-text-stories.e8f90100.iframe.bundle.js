@@ -1,0 +1,11 @@
+"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[1663],{"../../libs/elements/src/text/stories/vl-text.stories.ts":(e,t,r)=>{r.r(t),r.d(t,{TextDefault:()=>o,__namedExportsOrder:()=>u,default:()=>d});var s=r("../../node_modules/lit-html/lit-html.js"),a=r("../../libs/common/storybook/src/index.ts");let n={hidden:!1,success:!1,warning:!1,error:!1,content:""},l={hidden:{name:"data-vl-visually-hidden",description:"Attribuut wordt gebruikt om de tekst te verbergen.",table:{type:{summary:a.QE.BOOLEAN},defaultValue:{summary:n.hidden}}},success:{name:"data-vl-success",description:"Attribuut wordt gebruikt om de tekst te verbergen.",table:{type:{summary:a.QE.BOOLEAN},defaultValue:{summary:n.success}}},warning:{name:"data-vl-warning",description:"Attribuut wordt gebruikt om de tekst te verbergen.",table:{type:{summary:a.QE.BOOLEAN},defaultValue:{summary:n.warning}}},error:{name:"data-vl-error",description:"Attribuut wordt gebruikt om de tekst te verbergen.",table:{type:{summary:a.QE.BOOLEAN},defaultValue:{summary:n.error}}},content:{name:"content",description:"De tekst die getoond moet worden (enkel relevant in context van deze story).",table:{type:{summary:a.QE.BOOLEAN},defaultValue:{summary:n.error}}}};r("../../libs/elements/src/text/vl-text.element.ts");let d={id:"elements-text",title:"Elements/text",tags:["autodocs"],args:n,argTypes:l},o=(0,a._7)(n,({hidden:e,content:t,success:r,warning:a,error:n})=>(0,s.qy)`
+            <span
+                ?data-vl-visually-hidden=${e}
+                ?data-vl-success=${r}
+                ?data-vl-warning=${a}
+                ?data-vl-error=${n}
+                is="vl-text"
+            >
+                ${t}
+            </span>
+        `);o.storyName="vl-text - default",o.args={content:"Tekst"},o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:'story(textArgs, ({\n  hidden,\n  content,\n  success,\n  warning,\n  error\n}: typeof textArgs) => html`\n            <span\n                ?data-vl-visually-hidden=${hidden}\n                ?data-vl-success=${success}\n                ?data-vl-warning=${warning}\n                ?data-vl-error=${error}\n                is="vl-text"\n            >\n                ${content}\n            </span>\n        `)',...o.parameters?.docs?.source}}};let u=["TextDefault"]}}]);
