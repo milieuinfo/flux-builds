@@ -1,0 +1,4 @@
+import{s as r,v as t,x as a,r as o,d as n,f as s,g as l,l as c}from"./iframe-iHJvAyUB.js";import{o as i}from"./unsafe-html-Cp1r1c8h.js";import{c as m}from"./functional-header.helpers-COcnR_Pa.js";o([n,s,l,c]);const d={title:"Ontwerp/Functional Header/Voorbeeld Met Search"},e=r({},()=>a` <style>
+            ${t}
+        </style>
+        ${i(m)}`);e.storyName="vl-functional-header - met search";e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:"story({}, () => html` <style>\n            ${vlGroupStyles}\n        </style>\n        ${unsafeHTML(functionalHeaderWithSearchHtml)}`)",...e.parameters?.docs?.source}}};const u=["functionalHeaderWithSearch"],S=Object.freeze(Object.defineProperty({__proto__:null,__namedExportsOrder:u,default:d,functionalHeaderWithSearch:e},Symbol.toStringTag,{value:"Module"}));export{e as a,S as f};
