@@ -1,0 +1,52 @@
+import{Y as e,Z as t,W as f,U as S,s as h,x as V,r as k}from"./iframe-B6HStWZE.js";import{o as E}from"./unsafe-html-CkfFEmZp.js";import{r as $,V as A}from"./vl-radio.component-tVP72AaS.js";import"./preload-helper-D9Z9MdNV.js";const{action:r}=__STORYBOOK_MODULE_ACTIONS__,a={...f,...$,defaultSlot:"",onVlChange:r("vl-change"),onVlInput:r("vl-input"),onVlValid:r("vl-valid")},O={...S,id:{name:"id",description:"Het id van het veld.",table:{type:{summary:t.STRING},category:e.ATTRIBUTES,defaultValue:{summary:a.id}}},value:{name:"value",description:"De value van de radio.",table:{type:{summary:t.STRING},category:e.ATTRIBUTES,defaultValue:{summary:String(a.value)}}},name:{name:"name",description:"De naam van het veld.",table:{type:{summary:t.STRING},category:e.ATTRIBUTES,defaultValue:{summary:a.name}}},label:{name:"label",description:"Het label van het veld.<br>Standaard wordt de tekst van het bijhorende label element gebruikt, indien dit niet aanwezig is of geen tekst bevat kan je dit attribuut gebruiken om het label te definiëren.",table:{type:{summary:t.STRING},category:e.ATTRIBUTES,defaultValue:{summary:a.label}}},block:{name:"block",description:"Duidt aan dat de component de volledige breedte van zijn parent mag innemen.",table:{type:{summary:t.BOOLEAN},category:e.ATTRIBUTES,defaultValue:{summary:String(a.block)}}},readonly:{name:"readonly",description:"Duidt aan dat het veld enkel leesbaar is.",table:{type:{summary:t.BOOLEAN},category:e.ATTRIBUTES,defaultValue:{summary:String(a.readonly)}}},disabled:{name:"disabled",description:"Beeldt de component in een disabled state af.",table:{type:{summary:t.BOOLEAN},category:e.ATTRIBUTES,defaultValue:{summary:String(a.disabled)}}},error:{name:"error",description:"Beeldt de component in een error state af.",table:{type:{summary:t.BOOLEAN},category:e.ATTRIBUTES,defaultValue:{summary:String(a.error)}}},success:{name:"success",description:"Beeldt de component in een success state af.",table:{type:{summary:t.BOOLEAN},category:e.ATTRIBUTES,defaultValue:{summary:String(a.success)}}},checked:{name:"checked",description:"Vinkt de radio aan of uit.",table:{type:{summary:t.BOOLEAN},category:e.ATTRIBUTES,defaultValue:{summary:String(a.checked)}}},defaultSlot:{name:"[default]",description:"De content van de radio.",table:{category:e.SLOTS,type:{summary:t.HTML},defaultValue:{summary:a.defaultSlot}}},onVlChange:{name:"vl-change",description:"Event dat afgevuurd wordt als de radio aangevinkt of uitgevinkt wordt (zowel programmatorisch als door een gebruiker).<br>Het detail object van het event bevat de checked state en de waarde van de radio.",table:{type:{summary:"{ checked: boolean, value?: string }"},category:e.EVENTS}},onVlInput:{name:"vl-input",description:"Event dat afgevuurd wordt als de radio aangevinkt wordt.<br>Het detail object van het event bevat de checked state en de waarde van de radio.",table:{type:{summary:"{ checked: boolean, value?: string }"},category:e.EVENTS}},onVlValid:{name:"vl-valid",description:"Event dat afgevuurd wordt als de radio aangevinkt wordt.<br>Het detail object van het event bevat de checked state en de waarde van de radio.",table:{type:{summary:"{ checked: boolean, value?: string }"},category:e.EVENTS}}};k([A]);const w={id:"components-form-radio-group",title:"Components - Form/radio-group",tags:["autodocs"],args:a,argTypes:O},n=h(a,({id:d,name:l,label:o,block:i,readonly:s,checked:u,disabled:c,error:m,success:v,value:y,defaultSlot:p,onVlChange:b,onVlInput:g,onVlValid:T})=>V`
+        <vl-radio
+            id=${d}
+            name=${l}
+            label=${o}
+            value=${y}
+            ?block=${i}
+            ?readonly=${s}
+            ?checked=${u}
+            ?disabled=${c}
+            ?error=${m}
+            ?success=${v}
+            @vl-change=${b}
+            @vl-input=${g}
+            @vl-valid=${T}
+        >
+            ${E(p)}
+        </vl-radio>
+    `);n.storyName="vl-radio - default";n.args={value:"Optie 1",defaultSlot:"Optie 1"};n.parameters={...n.parameters,docs:{...n.parameters?.docs,source:{originalSource:`story(radioArgs, ({
+  id,
+  name,
+  label,
+  block,
+  readonly,
+  checked,
+  disabled,
+  error,
+  success,
+  value,
+  defaultSlot,
+  onVlChange,
+  onVlInput,
+  onVlValid
+}) => html\`
+        <vl-radio
+            id=\${id}
+            name=\${name}
+            label=\${label}
+            value=\${value}
+            ?block=\${block}
+            ?readonly=\${readonly}
+            ?checked=\${checked}
+            ?disabled=\${disabled}
+            ?error=\${error}
+            ?success=\${success}
+            @vl-change=\${onVlChange}
+            @vl-input=\${onVlInput}
+            @vl-valid=\${onVlValid}
+        >
+            \${unsafeHTML(defaultSlot)}
+        </vl-radio>
+    \`)`,...n.parameters?.docs?.source}}};const U=["RadioDefault"];export{n as RadioDefault,U as __namedExportsOrder,w as default};
