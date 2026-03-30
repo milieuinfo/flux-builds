@@ -1,0 +1,4 @@
+import{s as t,k as r,x as o,r as a,l as n,m as s,n as c,g as l}from"./iframe-BJy2lIHs.js";import{o as m}from"./unsafe-html-CtiZpSxA.js";import{c as i}from"./functionele-header.helpers-BG1_fD_A.js";a([n,s,c,l]);const u={title:"Patronen/Navigatie/Functionele Header/met search"},e=t({},()=>o` <style>
+            ${r}
+        </style>
+        ${m(i)}`);e.storyName="functionele header - met search";e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:"story({}, () => html` <style>\n            ${vlGroupStyles}\n        </style>\n        ${unsafeHTML(functionalHeaderWithSearchHtml)}`)",...e.parameters?.docs?.source}}};const d=["FunctioneleHeaderMetSearch"],S=Object.freeze(Object.defineProperty({__proto__:null,FunctioneleHeaderMetSearch:e,__namedExportsOrder:d,default:u},Symbol.toStringTag,{value:"Module"}));export{e as F,S as f};
