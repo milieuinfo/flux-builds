@@ -1,0 +1,12 @@
+import{u as a,j as e,M as r,C as i,S as s}from"./iframe-69xRVzLO.js";import{f as c,F as d}from"./functionele-header-met-back-en-tabs.stories-BBY00WqT.js";import{d as m}from"./functionele-header.helpers-Dks92DVp.js";import"./preload-helper-D9Z9MdNV.js";import"./vl-side-navigation.component-BikInihD.js";import"./property-DzMVtqAE.js";import"./vl-side-navigation-layout.component-CAo-KB7k.js";import"./vl-tabs.component-FYRwrnHz.js";import"./vl-checkbox.component-YUF2NAyE.js";import"./vl-datepicker.component-CJk5oTe3.js";import"./cleave-esm-DfUhcNrv.js";import"./vl-fieldset.component-BsRFYb5y.js";import"./vl-input-field-masked.component-Chk_8RDS.js";import"./vl-radio.component-BHdI6r1o.js";import"./vl-radio-group.component-CXE1VlBD.js";import"./vl-select.component-DjcSeoM9.js";import"./vl-select-rich.component-pbaJxKAT.js";import"./vl-textarea.component-3N-QACUu.js";import"./vl-textarea-rich.component-GzVVXRfn.js";import"./vl-upload.component-Bx3un35T.js";import"./vl-upload-progress.component-gTUoCtJA.js";import"./unsafe-html-C2OLfeOz.js";function t(o){const n={a:"a",h1:"h1",h2:"h2",li:"li",p:"p",ul:"ul",...a(),...o.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{of:c}),`
+`,e.jsx(n.h1,{id:"functionele-header---met-back-en-tabs",children:"Functionele Header - met Back en Tabs"}),`
+`,e.jsxs(n.p,{children:["In dit voorbeeld tonen we hoe een ",e.jsx(n.a,{href:"/docs/components-block-tabs-tabs--documentatie",children:"vl-tabs"})," component kan toegevoegd worden aan de ",e.jsx(n.a,{href:"/docs/components-block-functional-header--documentatie",children:"vl-functional-header"})," in combinatie met de back button."]}),`
+`,e.jsx(n.p,{children:"In dit geval wordt custom CSS meegegeven om deze layout mogelijk te maken."}),`
+`,e.jsx(n.h2,{id:"componenten",children:"Componenten"}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsx(n.li,{children:e.jsx(n.a,{href:"/docs/components-block-functional-header--documentatie",children:"vl-functional-header"})}),`
+`,e.jsx(n.li,{children:e.jsx(n.a,{href:"/docs/components-block-tabs-tabs--documentatie",children:"vl-tabs"})}),`
+`]}),`
+`,e.jsx(n.h2,{id:"demo",children:"Demo"}),`
+`,e.jsx(i,{of:d,sourceState:"none"}),`
+`,e.jsxs("details",{open:!0,children:[e.jsx("summary",{children:"Code"}),e.jsx(s,{code:m,language:"ts",dark:!0})]})]})}function A(o={}){const{wrapper:n}={...a(),...o.components};return n?e.jsx(n,{...o,children:e.jsx(t,{...o})}):t(o)}export{A as default};
