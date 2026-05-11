@@ -3,7 +3,7 @@
 
     // Actieve omgeving: 'ONTWIKKEL', 'OEFEN' of 'PRODUCTIE'
     // Lokale hosts (localhost, 127.0.0.1, 192.168.*) loggen altijd naar ONTWIKKEL, ongeacht deze instelling.
-    const logTo = 'ONTWIKKEL';
+    const logTo = 'OEFEN';
 
     // Bepaal omgeving op basis van hostname en logTo
     const hostname = window.location.hostname;
