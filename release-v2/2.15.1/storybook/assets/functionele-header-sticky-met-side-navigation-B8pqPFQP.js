@@ -1,0 +1,11 @@
+import{u as o,j as e,M as r,C as a,S as s}from"./iframe-nqJ0ju39.js";import{f as m,F as c}from"./functionele-header-sticky-met-side-navigation.stories-DursKhoK.js";import{h as d}from"./functionele-header.helpers-Dks92DVp.js";import"./preload-helper-D9Z9MdNV.js";import"./vl-accessibility.component-C02Khie1.js";import"./vl-side-navigation.component-kUAgXORO.js";import"./vl-side-navigation-layout.component-BaCeNu2k.js";import"./vl-cookie-consent.component-DY4fojNg.js";import"./vl-checkbox.component-kcGdx0dA.js";import"./vl-datepicker.component-LrijvSQq.js";import"./cleave-esm-DfUhcNrv.js";import"./vl-fieldset.component-DHSdhx9W.js";import"./vl-input-field-masked.component-SpAs0qTF.js";import"./vl-radio.component-VdH70-oI.js";import"./vl-radio-group.component-BY5xfCg3.js";import"./vl-select.component-DRh-HxGq.js";import"./vl-select-rich.component-_K_EXuZK.js";import"./vl-textarea.component-D1tzSi4A.js";import"./vl-textarea-rich.component-CDfdsccr.js";import"./vl-upload.component-DC3JX4LC.js";import"./vl-upload-progress.component-DSz62Axb.js";import"./vl-cookie-statement.component-CXkSWMfB.js";import"./vl-footer.component-BLJxpUdn.js";import"./vl-header.component-DBCNYC-1.js";import"./vl-privacy.component-iGxc5nJM.js";import"./unsafe-html-BpdtmJuL.js";function t(i){const n={a:"a",h1:"h1",h2:"h2",li:"li",p:"p",ul:"ul",...o(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{of:m}),`
+`,e.jsx(n.h1,{id:"functionele-header---sticky-met-side-navigation",children:"Functionele Header - Sticky met Side Navigation"}),`
+`,e.jsx(n.p,{children:"In dit voorbeeld tonen we hoe je een sticky functional header kan combineren met een side navigatie."}),`
+`,e.jsx(n.h2,{id:"componenten",children:"Componenten"}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsx(n.li,{children:e.jsx(n.a,{href:"/docs/components-block-functional-header--documentatie",children:"vl-functional-header"})}),`
+`,e.jsx(n.li,{children:e.jsx(n.a,{href:"/docs/components-block-side-navigation--documentatie",children:"vl-side-navigation"})}),`
+`]}),`
+`,e.jsx(n.h2,{id:"demo",children:"Demo"}),`
+`,e.jsx(a,{of:c,sourceState:"none"}),`
+`,e.jsxs("details",{open:!0,children:[e.jsx("summary",{children:"Code"}),e.jsx(s,{code:d,language:"ts",dark:!0})]})]})}function R(i={}){const{wrapper:n}={...o(),...i.components};return n?e.jsx(n,{...i,children:e.jsx(t,{...i})}):t(i)}export{R as default};
