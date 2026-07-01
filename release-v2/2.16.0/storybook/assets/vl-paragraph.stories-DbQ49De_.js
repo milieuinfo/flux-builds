@@ -1,0 +1,20 @@
+import{Z as d,_ as i,W as m,bI as p,X as f,u as h,j as a,C as l,b8 as x,s as b,x as j,r as y,aY as S}from"./iframe-B0laZkYe.js";import{o as v}from"./unsafe-html-C_AhUnex.js";import"./preload-helper-D9Z9MdNV.js";const c={...f,...p,defaultSlot:""},T={...m,bold:{name:"bold",description:"Toont de paragraaf in het vet.",table:{type:{summary:i.BOOLEAN},category:d.ATTRIBUTES,defaultValue:{summary:String(p.bold)}}},introduction:{name:"introduction",description:"Toont de paragraaf in de introductie stijl.",table:{type:{summary:i.BOOLEAN},category:d.ATTRIBUTES,defaultValue:{summary:String(p.introduction)}}},defaultSlot:{name:"[default]",description:"De inhoud van de paragraaf.",table:{type:{summary:i.HTML},category:d.SLOTS,defaultValue:{summary:String(c.defaultSlot)}}}};function g(e){const r={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",p:"p",pre:"pre",...h(),...e.components},{FluxComponentMetaData:s}=r;return s||C("FluxComponentMetaData"),a.jsxs(a.Fragment,{children:[a.jsx(r.h1,{id:"paragraph",children:"Paragraph"}),`
+`,a.jsx(s,{id:"components-atom-paragraph"}),`
+`,a.jsx(r.h2,{id:"doel",children:"Doel"}),`
+`,a.jsxs(r.p,{children:["Gebruik de ",a.jsx(r.code,{children:"paragraph"})," component om een paragraaf af te beelden op een pagina.",a.jsx("br",{})]}),`
+`,a.jsx(r.h2,{id:"voorbeeld",children:"Voorbeeld"}),`
+`,a.jsx(r.pre,{children:a.jsx(r.code,{className:"language-js",children:`import { VlParagraphComponent } from '@domg-wc/components/atom';
+`})}),`
+`,a.jsx(r.pre,{children:a.jsx(r.code,{className:"language-html",children:`<vl-paragraph></vl-paragraph>
+`})}),`
+`,a.jsx(l,{of:o}),`
+`,a.jsx(r.h2,{id:"configuratie",children:"Configuratie"}),`
+`,a.jsx(x,{of:o}),`
+`,a.jsx(r.h2,{id:"varianten",children:"Varianten"}),`
+`,a.jsx(r.h3,{id:"bold",children:"Bold"}),`
+`,a.jsx(l,{of:t}),`
+`,a.jsx(r.h3,{id:"introduction",children:"Introduction"}),`
+`,a.jsx(l,{of:n}),`
+`,a.jsx(r.h2,{id:"referenties",children:"Referenties"}),`
+`,a.jsx(r.h3,{id:"digitaal-vlaanderen",children:"Digitaal Vlaanderen"}),`
+`,a.jsx(r.p,{children:a.jsx(r.a,{href:"https://www.vlaanderen.be/vlaanderen-design-system/componenten/introduction",rel:"nofollow",children:"Documentatie Digitaal Vlaanderen - Introduction"})})]})}function A(e={}){const{wrapper:r}={...h(),...e.components};return r?a.jsx(r,{...e,children:a.jsx(g,{...e})}):g(e)}function C(e,r){throw new Error("Expected component `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}y([S]);const E={id:"components-atom-paragraph",title:"Components - Atom/paragraph",tags:["autodocs"],args:c,argTypes:T,parameters:{docs:{page:A}}},u=b(c,({bold:e,introduction:r,defaultSlot:s})=>j` <vl-paragraph ?bold=${e} ?introduction=${r}>${v(s)} </vl-paragraph> `),o=u.bind({});o.storyName="vl-paragraph - default";o.args={defaultSlot:"paragraaf - default"};const t=u.bind({});t.storyName="vl-paragraph - bold";t.args={defaultSlot:"paragraaf - bold",bold:!0};const n=u.bind({});n.storyName="vl-paragraph - introduction";n.args={defaultSlot:"paragraaf - introduction",introduction:!0};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:"story(paragraphArgs, ({\n  bold,\n  introduction,\n  defaultSlot\n}) => html` <vl-paragraph ?bold=${bold} ?introduction=${introduction}>${unsafeHTML(defaultSlot)} </vl-paragraph> `)",...o.parameters?.docs?.source}}};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:"story(paragraphArgs, ({\n  bold,\n  introduction,\n  defaultSlot\n}) => html` <vl-paragraph ?bold=${bold} ?introduction=${introduction}>${unsafeHTML(defaultSlot)} </vl-paragraph> `)",...t.parameters?.docs?.source}}};n.parameters={...n.parameters,docs:{...n.parameters?.docs,source:{originalSource:"story(paragraphArgs, ({\n  bold,\n  introduction,\n  defaultSlot\n}) => html` <vl-paragraph ?bold=${bold} ?introduction=${introduction}>${unsafeHTML(defaultSlot)} </vl-paragraph> `)",...n.parameters?.docs?.source}}};const M=["ParagraphDefault","ParagraphBold","ParagraphIntroduction"];export{t as ParagraphBold,o as ParagraphDefault,n as ParagraphIntroduction,M as __namedExportsOrder,E as default};
