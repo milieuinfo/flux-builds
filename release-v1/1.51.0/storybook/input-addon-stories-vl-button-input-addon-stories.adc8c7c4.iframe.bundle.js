@@ -1,0 +1,6 @@
+"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[1530],{"../../libs/elements/src/input-addon/stories/vl-button-input-addon.stories.ts":(t,n,e)=>{e.r(n),e.d(n,{__namedExportsOrder:()=>l,buttonInputAddonDefault:()=>a,default:()=>s});var o=e("../../node_modules/lit-html/lit-html.js");e("../../libs/elements/src/input-addon/vl-button-input-addon.element.ts"),e("../../libs/elements/src/icon/vl-icon.element.ts"),e("../../libs/elements/src/text/vl-text.element.ts");let s={id:"elements-input-addon-button-input-addon",title:"Elements/input-addon/button-input-addon",tags:["autodocs"],parameters:{controls:{hideNoControlsWarning:!0}}},a=()=>(0,o.qy)`
+    <button is="vl-button-input-addon" type="button" data-cy="button-input-addon">
+        <span is="vl-icon" icon="location"></span>
+        <span is="vl-text" data-vl-visually-hidden>Kies locatie</span>
+    </button>
+`;a.storyName="vl-button-input-addon - default",a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:'() => html`\n    <button is="vl-button-input-addon" type="button" data-cy="button-input-addon">\n        <span is="vl-icon" icon="location"></span>\n        <span is="vl-text" data-vl-visually-hidden>Kies locatie</span>\n    </button>\n`',...a.parameters?.docs?.source}}};let l=["buttonInputAddonDefault"]}}]);
