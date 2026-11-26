@@ -1,0 +1,1 @@
+import{a6 as i,a7 as s}from"./iframe-Cv28D2NX.js";class r{#i;#t;constructor(t){this.#t=t}start(){i(this.#i)&&this.#s()}stop(){s(this.#i)&&window.cancelAnimationFrame(this.#i),this.#i=void 0}#s(){this.#i=window.requestAnimationFrame(()=>{i(this.#i)||(this.#t(),this.#s())})}}export{r as R};

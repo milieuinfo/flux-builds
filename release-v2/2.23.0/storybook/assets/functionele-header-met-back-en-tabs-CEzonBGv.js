@@ -1,0 +1,12 @@
+import{u as r,j as e,M as i,C as a,S as s}from"./iframe-Cv28D2NX.js";import{f as c,F as m}from"./functionele-header-met-back-en-tabs.stories-BGGF83e1.js";import{d}from"./functionele-header.helpers-03qSAaq7.js";import"./preload-helper-PPVm8Dsz.js";import"./vl-accordion.component-MApwQbFM.js";import"./vl-info-tile.component-CXnTjId5.js";import"./vl-modal.component-Di4jiGh5.js";import"./vl-side-navigation.component-Bh_rK5ph.js";import"./vl-side-navigation-layout.component--szSopxK.js";import"./vl-tabs.component-DK-cBMq7.js";import"./vl-checkbox.component-Cl-C3bHb.js";import"./vl-datepicker.component-gIhsylI-.js";import"./cleave-esm-DfUhcNrv.js";import"./vl-fieldset.component-DAfAyWPV.js";import"./vl-input-field-masked.component-DrIBY--W.js";import"./vl-radio.component-BMGk1PbP.js";import"./vl-radio-group.component-BVQMwWW-.js";import"./vl-select.component-DAztbrd3.js";import"./vl-select-rich.component-Bt8ZFZBv.js";import"./vl-textarea.component-1SQHWSt5.js";import"./vl-textarea-rich.component-jUqK0iT2.js";import"./vl-upload.component-RSddKL9f.js";import"./vl-upload-progress.component-DOm2qrBt.js";import"./stories.helper-DYHi_5m6.js";import"./unsafe-html-7Tp0Sqh9.js";function t(o){const n={a:"a",h1:"h1",h2:"h2",li:"li",p:"p",ul:"ul",...r(),...o.components};return e.jsxs(e.Fragment,{children:[e.jsx(i,{of:c}),`
+`,e.jsx(n.h1,{id:"functionele-header---met-back-en-tabs",children:"Functionele Header - met Back en Tabs"}),`
+`,e.jsxs(n.p,{children:["In dit voorbeeld tonen we hoe een ",e.jsx(n.a,{href:"/docs/components-block-tabs-tabs--documentatie",children:"vl-tabs"})," component kan toegevoegd worden aan de ",e.jsx(n.a,{href:"/docs/components-block-functional-header--documentatie",children:"vl-functional-header"})," in combinatie met de back button."]}),`
+`,e.jsx(n.p,{children:"In dit geval wordt custom CSS meegegeven om deze layout mogelijk te maken."}),`
+`,e.jsx(n.h2,{id:"componenten",children:"Componenten"}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsx(n.li,{children:e.jsx(n.a,{href:"/docs/components-block-functional-header--documentatie",children:"vl-functional-header"})}),`
+`,e.jsx(n.li,{children:e.jsx(n.a,{href:"/docs/components-block-tabs-tabs--documentatie",children:"vl-tabs"})}),`
+`]}),`
+`,e.jsx(n.h2,{id:"demo",children:"Demo"}),`
+`,e.jsx(a,{of:m,sourceState:"none"}),`
+`,e.jsxs("details",{open:!0,children:[e.jsx("summary",{children:"Code"}),e.jsx(s,{code:d,language:"ts",dark:!0})]})]})}function W(o={}){const{wrapper:n}={...r(),...o.components};return n?e.jsx(n,{...o,children:e.jsx(t,{...o})}):t(o)}export{W as default};

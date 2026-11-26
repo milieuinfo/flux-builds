@@ -1,0 +1,4 @@
+import{s as t}from"./stories.helper-DYHi_5m6.js";import{k as o,b as n,r,l as a,m as s,n as l,e as u}from"./iframe-Cv28D2NX.js";import{o as m}from"./unsafe-html-7Tp0Sqh9.js";import{a as i}from"./functionele-header.helpers-03qSAaq7.js";r([a,s,l,u]);const c={title:"Patronen/Navigatie/Functionele Header/met button"},e=t({},()=>n` <style>
+            ${o}
+        </style>
+        ${m(i)}`);e.storyName="functionele header - met button";const d=["FunctioneleHeaderMetButton"];e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:"story({}, () => html` <style>\n            ${vlGroupStyles}\n        </style>\n        ${unsafeHTML(functionalHeaderWithButtonHtml)}`)",...e.parameters?.docs?.source}}};const b=Object.freeze(Object.defineProperty({__proto__:null,FunctioneleHeaderMetButton:e,__namedExportsOrder:d,default:c},Symbol.toStringTag,{value:"Module"}));export{e as F,b as f};
