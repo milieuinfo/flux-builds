@@ -1,6 +1,0 @@
-"use strict";(self.webpackChunkuigov_web_components=self.webpackChunkuigov_web_components||[]).push([[4974],{"./libs/elements/src/introduction/stories/vl-introduction.stories.ts":(t,e,o)=>{o.r(e),o.d(e,{default:()=>n,introductionDefault:()=>r});var s=o("./node_modules/lit-html/lit-html.js");o("./libs/elements/src/introduction/vl-introduction.element.ts");let n={title:"Elements/introduction",tags:["autodocs"],parameters:{controls:{hideNoControlsWarning:!0}},args:{content:"Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus."},argTypes:{content:{name:"content (for demo purposes)"}}},r=({content:t})=>(0,s.dy)`<p
-    is="vl-introduction"
-    data-cy="introduction"
->
-    ${t}
-</p>`;r.storyName="vl-introduction - default",r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:'({\n  content\n}: IntroductionArgs) => html`<p\n    is="vl-introduction"\n    data-cy="introduction"\n>\n    ${content}\n</p>`',...r.parameters?.docs?.source}}}}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkuigov_web_components=self.webpackChunkuigov_web_components||[]).push([[1984],{"./node_modules/@storybook/components/dist/WithTooltip-4HIR6TLV.mjs":(o,t,e)=>{e.r(t),e.d(t,{WithToolTipState:()=>s.WA,WithTooltip:()=>s.WA,WithTooltipPure:()=>s.DG});var s=e("./node_modules/@storybook/components/dist/chunk-7V7F47IN.mjs")}}]);
