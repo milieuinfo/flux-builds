@@ -1,6 +1,0 @@
-"use strict";(self.webpackChunkuigov_web_components=self.webpackChunkuigov_web_components||[]).push([[8071],{"./libs/elements/src/body/stories/vl-body.stories.ts":(e,t,o)=>{o.r(t),o.d(t,{__namedExportsOrder:()=>a,bodyDefault:()=>d,default:()=>l});var s=o("./node_modules/lit-html/lit-html.js");o("./libs/elements/src/body/vl-body.element.ts");let l={title:"Elements/body",parameters:{controls:{hideNoControlsWarning:!0}}},d=()=>(0,s.dy)`
-        <!-- just shows usage -->
-        <body is="vl-body" data-cy="body-default">
-            <p>By using the native vl-body element incl. styling, a minimum of corporate identity will be loaded.</p>
-        </body>
-    `;d.storyName="vl-body - default",d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:'() => html`\n        <!-- just shows usage -->\n        <body is="vl-body" data-cy="body-default">\n            <p>By using the native vl-body element incl. styling, a minimum of corporate identity will be loaded.</p>\n        </body>\n    `',...d.parameters?.docs?.source}}};let a=["bodyDefault"]}}]);

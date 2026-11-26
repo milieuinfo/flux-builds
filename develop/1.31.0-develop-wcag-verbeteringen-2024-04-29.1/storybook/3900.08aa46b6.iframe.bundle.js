@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkuigov_web_components=self.webpackChunkuigov_web_components||[]).push([[3900],{"./node_modules/@storybook/components/dist/syntaxhighlighter-B5GMVT5T.mjs":(o,e,s)=>{s.r(e),s.d(e,{SyntaxHighlighter:()=>n.d3,createCopyToClipboardFunction:()=>n.xV,default:()=>n.qG});var n=s("./node_modules/@storybook/components/dist/chunk-LWG3MFN2.mjs")}}]);

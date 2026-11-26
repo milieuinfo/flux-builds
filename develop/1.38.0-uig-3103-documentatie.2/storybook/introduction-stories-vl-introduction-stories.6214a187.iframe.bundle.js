@@ -1,6 +1,0 @@
-"use strict";(self.webpackChunkstorybook=self.webpackChunkstorybook||[]).push([[6087],{"../../libs/elements/src/introduction/stories/vl-introduction.stories.ts":(t,e,o)=>{o.r(e),o.d(e,{__namedExportsOrder:()=>a,default:()=>r,introductionDefault:()=>n});var s=o("../../node_modules/lit-html/lit-html.js");o("../../libs/elements/src/introduction/vl-introduction.element.ts");let r={title:"Elements/introduction",tags:["autodocs"],parameters:{controls:{hideNoControlsWarning:!0}},args:{content:"Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus."},argTypes:{content:{name:"content (for demo purposes)"}}},n=({content:t})=>(0,s.qy)`<p
-    is="vl-introduction"
-    data-cy="introduction"
->
-    ${t}
-</p>`;n.storyName="vl-introduction - default",n.parameters={...n.parameters,docs:{...n.parameters?.docs,source:{originalSource:'({\n  content\n}: IntroductionArgs) => html`<p\n    is="vl-introduction"\n    data-cy="introduction"\n>\n    ${content}\n</p>`',...n.parameters?.docs?.source}}};let a=["introductionDefault"]}}]);
